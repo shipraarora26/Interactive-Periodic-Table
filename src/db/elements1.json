@@ -1,0 +1,163 @@
+[
+  {
+    "class": "other-nonmetals",
+    "atomicOrbitalShells": {"k": 1, "l": null, "m": null, "n": null, "o": null, "p": null, "q": null},
+    "atomicNumber": 1,
+    "elementSymbol": "H",
+    "elementName": "Hydrogen",
+    "atomicMass": 1.008
+  },
+
+  {
+    "class": "empty",
+    "atomicOrbitalShells": {"k": null, "l": null, "m": null, "n": null, "o": null, "p": null, "q": null},
+    "atomicNumber": null,
+    "elementSymbol": null,
+    "elementName": null,
+    "atomicMass": null
+  },
+
+  {
+    "class": "empty",
+    "atomicOrbitalShells": {"k": null, "l": null, "m": null, "n": null, "o": null, "p": null, "q": null},
+    "atomicNumber": null,
+    "elementSymbol": null,
+    "elementName": null,
+    "atomicMass": null
+  },
+
+  {
+    "class": "empty",
+    "atomicOrbitalShells": {"k": null, "l": null, "m": null, "n": null, "o": null, "p": null, "q": null},
+    "atomicNumber": null,
+    "elementSymbol": null,
+    "elementName": null,
+    "atomicMass": null
+  },
+
+  {
+    "class": "empty",
+    "atomicOrbitalShells": {"k": null, "l": null, "m": null, "n": null, "o": null, "p": null, "q": null},
+    "atomicNumber": null,
+    "elementSymbol": null,
+    "elementName": null,
+    "atomicMass": null
+  },
+
+  {
+    "class": "empty",
+    "atomicOrbitalShells": {"k": null, "l": null, "m": null, "n": null, "o": null, "p": null, "q": null},
+    "atomicNumber": null,
+    "elementSymbol": null,
+    "elementName": null,
+    "atomicMass": null
+  },
+
+  {
+    "class": "empty",
+    "atomicOrbitalShells": {"k": null, "l": null, "m": null, "n": null, "o": null, "p": null, "q": null},
+    "atomicNumber": null,
+    "elementSymbol": null,
+    "elementName": null,
+    "atomicMass": null
+  },
+
+  {
+    "class": "empty",
+    "atomicOrbitalShells": {"k": null, "l": null, "m": null, "n": null, "o": null, "p": null, "q": null},
+    "atomicNumber": null,
+    "elementSymbol": null,
+    "elementName": null,
+    "atomicMass": null
+  },
+
+  {
+    "class": "empty",
+    "atomicOrbitalShells": {"k": null, "l": null, "m": null, "n": null, "o": null, "p": null, "q": null},
+    "atomicNumber": null,
+    "elementSymbol": null,
+    "elementName": null,
+    "atomicMass": null
+  },
+
+  {
+    "class": "empty",
+    "atomicOrbitalShells": {"k": null, "l": null, "m": null, "n": null, "o": null, "p": null, "q": null},
+    "atomicNumber": null,
+    "elementSymbol": null,
+    "elementName": null,
+    "atomicMass": null
+  },
+
+  {
+    "class": "empty",
+    "atomicOrbitalShells": {"k": null, "l": null, "m": null, "n": null, "o": null, "p": null, "q": null},
+    "atomicNumber": null,
+    "elementSymbol": null,
+    "elementName": null,
+    "atomicMass": null
+  },
+
+  {
+    "class": "empty",
+    "atomicOrbitalShells": {"k": null, "l": null, "m": null, "n": null, "o": null, "p": null, "q": null},
+    "atomicNumber": null,
+    "elementSymbol": null,
+    "elementName": null,
+    "atomicMass": null
+  },
+
+  {
+    "class": "empty",
+    "atomicOrbitalShells": {"k": null, "l": null, "m": null, "n": null, "o": null, "p": null, "q": null},
+    "atomicNumber": null,
+    "elementSymbol": null,
+    "elementName": null,
+    "atomicMass": null
+  },
+
+  {
+    "class": "empty",
+    "atomicOrbitalShells": {"k": null, "l": null, "m": null, "n": null, "o": null, "p": null, "q": null},
+    "atomicNumber": null,
+    "elementSymbol": null,
+    "elementName": null,
+    "atomicMass": null
+  },
+
+  {
+    "class": "empty",
+    "atomicOrbitalShells": {"k": null, "l": null, "m": null, "n": null, "o": null, "p": null, "q": null},
+    "atomicNumber": null,
+    "elementSymbol": null,
+    "elementName": null,
+    "atomicMass": null
+  },
+
+  {
+    "class": "empty",
+    "atomicOrbitalShells": {"k": null, "l": null, "m": null, "n": null, "o": null, "p": null, "q": null},
+    "atomicNumber": null,
+    "elementSymbol": null,
+    "elementName": null,
+    "atomicMass": null
+  },
+
+  {
+    "class": "empty",
+    "atomicOrbitalShells": {"k": null, "l": null, "m": null, "n": null, "o": null, "p": null, "q": null},
+    "atomicNumber": null,
+    "elementSymbol": null,
+    "elementName": null,
+    "atomicMass": null
+  },
+
+  {
+    "class": "noble-gases",
+    "atomicOrbitalShells": {"k": 2, "l": null, "m": null, "n": null, "o": null, "p": null, "q": null},
+    "atomicNumber": 2,
+    "elementSymbol": "He",
+    "elementName": "Helium",
+    "atomicMass": 4.002602
+  }
+]

@@ -1,0 +1,146 @@
+[
+  {
+    "class": "alkali-metals",
+    "atomicOrbitalShells": { "k": 2, "l": 8, "m": 8, "n": 1, "o": null, "p": null, "q": null},
+    "atomicNumber": 19,
+    "elementSymbol":" K",
+    "elementName": "Potassium",
+    "atomicMass": 39.0983
+  },
+  {
+    "class": "alkaline-earth-metals",
+    "atomicOrbitalShells": { "k": 2, "l": 8, "m": 8, "n": 2, "o": null, "p": null, "q": null},
+    "atomicNumber": 20,
+    "elementSymbol": "Ca",
+    "elementName": "Calcium",
+    "atomicMass": 40.078
+  },
+  {
+    "class": "transition-metals",
+    "atomicOrbitalShells": { "k": 2, "l": 8, "m": 9, "n": 2, "o": null, "p": null, "q": null},
+    "atomicNumber": 21,
+    "elementSymbol": "Sc",
+    "elementName": "Scandium",
+    "atomicMass": 44.955908
+  },
+  {
+    "class": "transition-metals",
+    "atomicOrbitalShells": { "k": 2, "l": 8, "m": 10, "n": 2, "o": null, "p": null, "q": null},
+    "atomicNumber": 22,
+    "elementSymbol": "Ti",
+    "elementName": "Titanium",
+    "atomicMass": 47.867
+  },
+  {
+    "class": "transition-metals",
+    "atomicOrbitalShells": { "k": 2, "l": 8, "m": 11, "n": 2, "o": null, "p": null, "q": null},
+    "atomicNumber": 23,
+    "elementSymbol": "V",
+    "elementName": "Vanadium",
+    "atomicMass": 50.9415
+  },
+  {
+    "class": "transition-metals",
+    "atomicOrbitalShells": { "k": 2, "l": 8, "m": 13, "n": 1, "o": null, "p": null, "q": null},
+    "atomicNumber": 24,
+    "elementSymbol": "Cr",
+    "elementName": "Chromium",
+    "atomicMass": 51.9961
+  },
+  {
+    "class": "transition-metals",
+    "atomicOrbitalShells": { "k": 2, "l": 8, "m": 13, "n": 2, "o": null, "p": null, "q": null},
+    "atomicNumber": 25,
+    "elementSymbol": "Mn",
+    "elementName": "Manganese",
+    "atomicMass": 54.938044
+  },
+  {
+    "class": "transition-metals",
+    "atomicOrbitalShells": { "k": 2, "l": 8, "m": 14, "n": 2, "o": null, "p": null, "q": null},
+    "atomicNumber": 26,
+    "elementSymbol": "Fe",
+    "elementName": "Iron",
+    "atomicMass": 55.845
+  },
+  {
+    "class": "transition-metals",
+    "atomicOrbitalShells": { "k": 2, "l": 8, "m": 15, "n": 2, "o": null, "p": null, "q": null},
+    "atomicNumber": 27,
+    "elementSymbol": "Co",
+    "elementName": "Cobolt",
+    "atomicMass": 58.933194
+  },
+  {
+    "class": "transition-metals",
+    "atomicOrbitalShells": { "k": 2, "l": 8, "m": 16, "n": 2, "o": null, "p": null, "q": null},
+    "atomicNumber": 28,
+    "elementSymbol": "Ni",
+    "elementName": "Nickel",
+    "atomicMass": 58.6934
+  },
+  {
+    "class": "transition-metals",
+    "atomicOrbitalShells": { "k": 2, "l": 8, "m": 18, "n": 1, "o": null, "p": null, "q": null},
+    "atomicNumber": 29,
+    "elementSymbol": "Cu",
+    "elementName": "Copper",
+    "atomicMass": 63.546
+  },
+  {
+    "class": "transition-metals",
+    "atomicOrbitalShells": { "k": 2, "l": 8, "m": 18, "n": 2, "o": null, "p": null, "q": null},
+    "atomicNumber": 30,
+    "elementSymbol": "Zn",
+    "elementName": "Zinc",
+    "atomicMass": 65.38
+  },
+  {
+    "class": "post-transition-metals",
+    "atomicOrbitalShells": { "k": 2, "l": 8, "m": 18, "n": 3, "o": null, "p": null, "q": null},
+    "atomicNumber": 31,
+    "elementSymbol": "Ga",
+    "elementName": "Gallium",
+    "atomicMass": 69.723
+  },
+  {
+    "class": "metalloids",
+    "atomicOrbitalShells": { "k": 2, "l": 8, "m": 18, "n": 4, "o": null, "p": null, "q": null},
+    "atomicNumber": 32,
+    "elementSymbol": "Ge",
+    "elementName": "Germanium",
+    "atomicMass": 72.63
+  },
+  {
+    "class": "metalloids",
+    "atomicOrbitalShells": { "k": 2, "l": 8, "m": 18, "n": 5, "o": null, "p": null, "q": null},
+    "atomicNumber": 33,
+    "elementSymbol": "As",
+    "elementName": "Arsenic",
+    "atomicMass": 74.921595
+  },
+  {
+    "class": "other-nonmetals",
+    "atomicOrbitalShells": { "k": 2, "l": 8, "m": 16, "n": 6, "o": null, "p": null, "q": null},
+    "atomicNumber": 34,
+    "elementSymbol": "Se",
+    "elementName": "Selenium",
+    "atomicMass": 78.971
+  },
+  {
+    "class": "halogens",
+    "atomicOrbitalShells": { "k": 2, "l": 8, "m": 18, "n": 7, "o": null, "p": null, "q": null},
+    "atomicNumber": 35,
+    "elementSymbol": "Br",
+    "elementName": "Bromine",
+    "atomicMass": 79.904
+  },
+  {
+    "class": "noble-gases",
+    "atomicOrbitalShells": { "k": 2, "l": 8, "m": 18, "n": 8, "o": null, "p": null, "q": null},
+    "atomicNumber": 36,
+    "elementSymbol": "Kr",
+    "elementName": "Krypton",
+    "atomicMass": 83.798
+  }
+]

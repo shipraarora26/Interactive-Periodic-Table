@@ -1,0 +1,146 @@
+[
+  {
+    "class": "alkali-metals",
+    "atomicOrbitalShells": { "k": 2, "l": 8, "m": 1, "n": null, "o": null, "p": null, "q": null},
+    "atomicNumber": 11,
+    "elementSymbol": "Na",
+    "elementName": "Sodium",
+    "atomicMass": 24.305
+  },
+  {
+    "class": "alkaline-earth-metals",
+    "atomicOrbitalShells": { "k": 2, "l": 8, "m": 2, "n": null, "o": null, "p": null, "q": null},
+    "atomicNumber": 12,
+    "elementSymbol": "Mg",
+    "elementName": "Magnesium",
+    "atomicMass": 22.98976928
+  },
+  {
+    "class": "empty",
+    "atomicOrbitalShells": { "k": null, "l": null, "m": null, "n": null, "o": null, "p": null, "q": null},
+    "atomicNumber": null,
+    "elementSymbol": null,
+    "elementName": null,
+    "atomicMass": null
+  },
+  {
+    "class": "empty",
+    "atomicOrbitalShells": { "k": null, "l": null, "m": null, "n": null, "o": null, "p": null, "q": null},
+    "atomicNumber": null,
+    "elementSymbol": null,
+    "elementName": null,
+    "atomicMass": null
+  },
+  {
+    "class": "empty",
+    "atomicOrbitalShells": { "k": null, "l": null, "m": null, "n": null, "o": null, "p": null, "q": null},
+    "atomicNumber": null,
+    "elementSymbol": null,
+    "elementName": null,
+    "atomicMass": null
+  },
+  {
+    "class": "empty",
+    "atomicOrbitalShells": { "k": null, "l": null, "m": null, "n": null, "o": null, "p": null, "q": null},
+    "atomicNumber": null,
+    "elementSymbol": null,
+    "elementName": null,
+    "atomicMass": null
+  },
+  {
+    "class": "empty",
+    "atomicOrbitalShells": { "k": null, "l": null, "m": null, "n": null, "o": null, "p": null, "q": null},
+    "atomicNumber": null,
+    "elementSymbol": null,
+    "elementName": null,
+    "atomicMass": null
+  },
+  {
+    "class": "empty",
+    "atomicOrbitalShells": { "k": null, "l": null, "m": null, "n": null, "o": null, "p": null, "q": null},
+    "atomicNumber": null,
+    "elementSymbol": null,
+    "elementName": null,
+    "atomicMass": null
+  },
+  {
+    "class": "empty",
+    "atomicOrbitalShells": { "k": null, "l": null, "m": null, "n": null, "o": null, "p": null, "q": null},
+    "atomicNumber": null,
+    "elementSymbol": null,
+    "elementName": null,
+    "atomicMass": null
+  },
+  {
+    "class": "empty",
+    "atomicOrbitalShells": { "k": null, "l": null, "m": null, "n": null, "o": null, "p": null, "q": null},
+    "atomicNumber": null,
+    "elementSymbol": null,
+    "elementName": null,
+    "atomicMass": null
+  },
+  {
+    "class": "empty",
+    "atomicOrbitalShells": { "k": null, "l": null, "m": null, "n": null, "o": null, "p": null, "q": null},
+    "atomicNumber": null,
+    "elementSymbol": null,
+    "elementName": null,
+    "atomicMass": null
+  },
+  {
+    "class": "empty",
+    "atomicOrbitalShells": { "k": null, "l": null, "m": null, "n": null, "o": null, "p": null, "q": null},
+    "atomicNumber": null,
+    "elementSymbol": null,
+    "elementName": null,
+    "atomicMass": null
+  },
+  {
+    "class": "post-transition-metals",
+    "atomicOrbitalShells": { "k": 2, "l": 8, "m": 3, "n": null, "o": null, "p": null, "q": null},
+    "atomicNumber": 13,
+    "elementSymbol": "Al",
+    "elementName": "Aluminium",
+    "atomicMass": 26.9815385
+  },
+  {
+    "class": "metalloids",
+    "atomicOrbitalShells": { "k": 2, "l": 8, "m": 4, "n": null, "o": null, "p": null, "q": null},
+    "atomicNumber": 14,
+    "elementSymbol": "Si",
+    "elementName": "Silicon",
+    "atomicMass": 28.085
+  },
+  {
+    "class": "other-nonmetals",
+    "atomicOrbitalShells": { "k": 2, "l": 8, "m": 5, "n": null, "o": null, "p": null, "q": null},
+    "atomicNumber": 15,
+    "elementSymbol": "P",
+    "elementName": "Phosphorus",
+    "atomicMass": 30.973761998
+  },
+  {
+    "class": "other-nonmetals",
+    "atomicOrbitalShells": { "k": 2, "l": 8, "m": 6, "n": null, "o": null, "p": null, "q": null},
+    "atomicNumber": 16,
+    "elementSymbol": "S",
+    "elementName": "Sulfur",
+    "atomicMass": 32.06
+  },
+  {
+    "class": "halogens",
+    "atomicOrbitalShells": { "k": 2, "l": 8, "m": 7, "n": null, "o": null, "p": null, "q": null},
+    "atomicNumber": 17,
+    "elementSymbol": "Cl",
+    "elementName": "Chlorine",
+    "atomicMass": 35.45
+  },
+  {
+    "class": "noble-gases",
+    "atomicOrbitalShells": { "k": 2, "l": 8, "m": 8, "n": null, "o": null, "p": null, "q": null},
+    "atomicNumber": 18,
+    "elementSymbol": "Ar",
+    "elementName": "Argon",
+    "atomicMass": 39.948
+  }
+]

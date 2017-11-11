@@ -1,0 +1,146 @@
+[
+  {
+    "class": "alkali-metals",
+    "atomicOrbitalShells": { "k":2,"l":8,"m":18,"n":32,"o":18,"p":8,"q":1 },
+    "atomicNumber": 87,
+    "elementSymbol": "Fr",
+    "elementName": "Francium",
+    "atomicMass": "(223)"
+  },
+  {
+    "class": "alkaline-earth-metals",
+    "atomicOrbitalShells": { "k":2,"l":8,"m":18,"n":32,"o":18,"p":8,"q":2 },
+    "atomicNumber": 88,
+    "elementSymbol": "Ra",
+    "elementName": "Radium",
+    "atomicMass": "(226)"
+  },
+  {
+    "class": "actinoids",
+    "atomicOrbitalShells": { "k": null,"l": null,"m": null,"n": null,"o": null,"p": null,"q": null},
+    "atomicNumber": "89 - 103",
+    "elementSymbol": "An",
+    "elementName": "Actinoids",
+    "atomicMass": null
+  },
+  {
+  "class": "transition-metals",
+  "atomicOrbitalShells": { "k":2,"l":8,"m":18,"n":32,"o":32,"p":10,"q":2 },
+  "atomicNumber": 104,
+  "elementSymbol": "Rf",
+  "elementName": "Rutherfordium",
+  "atomicMass": "(267)"
+  },
+  {
+    "class": "transition-metals",
+    "atomicOrbitalShells": { "k":2,"l":8,"m":18,"n":32,"o":32,"p":11,"q":2 },
+    "atomicNumber": 105,
+    "elementSymbol": "Db",
+    "elementName": "Dubnium",
+    "atomicMass": "(268)"
+  },
+  {
+    "class": "transition-metals",
+    "atomicOrbitalShells": { "k":2,"l":8,"m":18,"n":32,"o":32,"p":12,"q":2 },
+    "atomicNumber": 106,
+    "elementSymbol": "Sg",
+    "elementName": "Seaborgium",
+    "atomicMass": "(271)"
+  },
+  {
+    "class": "transition-metals",
+    "atomicOrbitalShells": { "k":2,"l":8,"m":18,"n":32,"o":32,"p":13,"q":2 },
+    "atomicNumber": 107,
+    "elementSymbol": "Bh",
+    "elementName": "Bohrium",
+    "atomicMass": "(272)"
+  },
+  {
+    "class": "transition-metals",
+    "atomicOrbitalShells": { "k":2,"l":8,"m":18,"n":32,"o":32,"p":14,"q":2 },
+    "atomicNumber": 108,
+    "elementSymbol": "Hs",
+    "elementName": "Hassium",
+    "atomicMass": "(270)"
+  },
+  {
+    "class": "transition-metals",
+    "atomicOrbitalShells": { "k":2,"l":8,"m":18,"n":32,"o":32,"p":15,"q":2 },
+    "atomicNumber": 109,
+    "elementSymbol": "Mt",
+    "elementName": "Meitnerium",
+    "atomicMass": "(276)"
+  },
+  {
+    "class": "transition-metals",
+    "atomicOrbitalShells": { "k":2,"l":8,"m":18,"n":32,"o":32,"p":17,"q":1 },
+    "atomicNumber": 110,
+    "elementSymbol": "Ds",
+    "elementName": "Darmstadtium",
+    "atomicMass": "(281)"
+  },
+  {
+    "class": "transition-metals",
+    "atomicOrbitalShells": { "k":2,"l":8,"m":18,"n":32,"o":32,"p":18,"q":1 },
+    "atomicNumber": 111,
+    "elementSymbol": "Rg",
+    "elementName": "Roentgenium",
+    "atomicMass": "(280)"
+  },
+  {
+    "class": "transition-metals",
+    "atomicOrbitalShells": { "k":2,"l":8,"m":18,"n":32,"o":32,"p":18,"q":2 },
+    "atomicNumber": 112,
+    "elementSymbol": "Cn",
+    "elementName": "Copernicium",
+    "atomicMass": "(285)"
+  },
+  {
+    "class": "post-transition-metals",
+    "atomicOrbitalShells": { "k":2,"l":8,"m":18,"n":32,"o":32,"p":18,"q":3 },
+    "atomicNumber": 113,
+    "elementSymbol": "Nh",
+    "elementName": "Nihonium",
+    "atomicMass": "(284)"
+  },
+  {
+    "class": "post-transition-metals",
+    "atomicOrbitalShells": { "k":2,"l":8,"m":18,"n":32,"o":32,"p":18,"q":4 },
+    "atomicNumber": 114,
+    "elementSymbol": "Fl",
+    "elementName": "Flerovium",
+    "atomicMass": "(289)"
+  },
+  {
+    "class": "post-transition-metals",
+    "atomicOrbitalShells": { "k":2,"l":8,"m":18,"n":32,"o":32,"p":18,"q":5 },
+    "atomicNumber": 115,
+    "elementSymbol": "Mc",
+    "elementName": "Moscovium",
+    "atomicMass": "(288)"
+  },
+  {
+    "class": "post-transition-metals",
+    "atomicOrbitalShells": { "k":2,"l":8,"m":18,"n":32,"o":32,"p":18,"q":6 },
+    "atomicNumber": 116,
+    "elementSymbol": "Lv",
+    "elementName": "Livermorium",
+    "atomicMass": "(293)"
+  },
+  {
+    "class": "metalloids",
+    "atomicOrbitalShells": { "k":2,"l":8,"m":18,"n":32,"o":32,"p":18,"q":7 },
+    "atomicNumber": 117,
+    "elementSymbol": "Ts",
+    "elementName": "Tennessine",
+    "atomicMass": "(294)"
+  },
+  {
+    "class": "noble-gases",
+    "atomicOrbitalShells": { "k":2,"l":8,"m":18,"n":32,"o":32,"p":18,"q":8 },
+    "atomicNumber": 118,
+    "elementSymbol": "Og",
+    "elementName": "Oganesson",
+    "atomicMass": "(294)"
+  }
+]

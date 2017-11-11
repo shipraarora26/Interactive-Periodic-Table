@@ -1,0 +1,146 @@
+[
+  {
+    "class": "alkali-metals",
+    "atomicOrbitalShells": { "K": 2, "L": 8, "M": 18, "N": 8, "O": 1, "P": null, "Q": null},
+    "atomicNumber": 37,
+    "elementSymbol": "Rb",
+    "elementName": "Rubidium",
+    "atomicMass": 85.4678
+  },
+  {
+    "class": "alkaline-earth-metals",
+    "atomicOrbitalShells": { "K": 2, "L": 8, "M": 18, "N": 8, "O": 2, "P": null, "Q": null},
+    "atomicNumber": 38,
+    "elementSymbol": "Sr",
+    "elementName": "Strontium",
+    "atomicMass": 87.62
+  },
+  {
+    "class": "transition-metals",
+    "atomicOrbitalShells": { "K": 2, "L": 8, "M": 18, "N": 9, "O": 2, "P": null, "Q": null},
+    "atomicNumber": 39,
+    "elementSymbol": "Y",
+    "elementName": "Yttrium",
+    "atomicMass": 8.90584
+  },
+  {
+    "class": "transition-metals",
+    "atomicOrbitalShells": { "K": 2, "L": 8, "M": 18, "N": 10, "O": 2, "P": null, "Q": null},
+    "atomicNumber": 40,
+    "elementSymbol": "Zr",
+    "elementName": "Zirconium",
+    "atomicMass": 91.224
+  },
+  {
+    "class": "transition-metals",
+    "atomicOrbitalShells": { "K": 2, "L": 8, "M": 18, "N": 12, "O": 1, "P": null, "Q": null},
+    "atomicNumber": 41,
+    "elementSymbol": "Nb",
+    "elementName": "Niobium",
+    "atomicMass": 92.90637
+  },
+  {
+    "class": "transition-metals",
+    "atomicOrbitalShells": { "K": 2, "L": 8, "M": 18, "N": 13, "O": 1, "P": null, "Q": null},
+    "atomicNumber": 42,
+    "elementSymbol": "Mo",
+    "elementName": "Molybdenum",
+    "atomicMass": 95.95
+  },
+  {
+    "class": "transition-metals",
+    "atomicOrbitalShells": { "K": 2, "L": 8, "M": 18, "N": 13, "O": 2, "P": null, "Q": null},
+    "atomicNumber": 43,
+    "elementSymbol": "Tc",
+    "elementName": "Technetium",
+    "atomicMass": "(98)"
+  },
+  {
+    "class": "transition-metals",
+    "atomicOrbitalShells": { "K": 2, "L": 8, "M": 18, "N": 15, "O": 1, "P": null, "Q": null},
+    "atomicNumber": 44,
+    "elementSymbol": "Ru",
+    "elementName": "Ruthenium",
+    "atomicMass": 101.07
+  },
+  {
+    "class": "transition-metals",
+    "atomicOrbitalShells": { "K": 2, "L": 8, "M": 18, "N": 16, "O": 1, "P": null, "Q": null},
+    "atomicNumber": 45,
+    "elementSymbol": "Rh",
+    "elementName": "Rhodium",
+    "atomicMass": 102.90550
+  },
+  {
+    "class": "transition-metals",
+    "atomicOrbitalShells": { "K": 2, "L": 8, "M": 18, "N": 18, "O": null, "P": null, "Q": null},
+    "atomicNumber": 46,
+    "elementSymbol": "Pd",
+    "elementName": "Palladium",
+    "atomicMass": 106.42
+  },
+  {
+    "class": "transition-metals",
+    "atomicOrbitalShells": { "K": 2, "L": 8, "M": 18, "N": 18, "O": 1, "P": null, "Q": null},
+    "atomicNumber": 47,
+    "elementSymbol": "Ag",
+    "elementName": "Silver",
+    "atomicMass": 107.8682
+  },
+  {
+    "class": "transition-metals",
+    "atomicOrbitalShells": { "K": 2, "L": 8, "M": 18, "N": 18, "O": 2, "P": null, "Q": null},
+    "atomicNumber": 48,
+    "elementSymbol": "Cd",
+    "elementName": "Cadmium",
+    "atomicMass": 112.414
+  },
+  {
+    "class": "post-transition-metals",
+    "atomicOrbitalShells": { "K": 2, "L": 8, "M": 18, "N": 18, "O": 3, "P": null, "Q": null},
+    "atomicNumber": 49,
+    "elementSymbol": "In",
+    "elementName": "Indium",
+    "atomicMass": 114.818
+  },
+  {
+    "class": "post-transition-metals",
+    "atomicOrbitalShells": { "K": 2, "L": 8, "M": 18, "N": 18, "O": 4, "P": null, "Q": null},
+    "atomicNumber": 50,
+    "elementSymbol": "Sn",
+    "elementName": "Tin",
+    "atomicMass": 118.710
+  },
+  {
+    "class": "metalloids",
+    "atomicOrbitalShells": { "K": 2, "L": 8, "M": 18, "N": 18, "O": 5, "P": null, "Q": null},
+    "atomicNumber": 51,
+    "elementSymbol": "Sb",
+    "elementName": "Antimony",
+    "atomicMass": 121.76
+  },
+  {
+    "class": "metalloids",
+    "atomicOrbitalShells": { "K": 2, "L": 8, "M": 18, "N": 18, "O": 6, "P": null, "Q": null},
+    "atomicNumber": 52,
+    "elementSymbol": "Te",
+    "elementName": "Tellurium",
+    "atomicMass": 127.60
+  },
+  {
+    "class": "halogens",
+    "atomicOrbitalShells": { "K": 2, "L": 8, "M": 18, "N": 18, "O": 7, "P": null, "Q": null},
+    "atomicNumber": 53,
+    "elementSymbol": "I",
+    "elementName": "Iodine",
+    "atomicMass": 126.90447
+  },
+  {
+    "class": "noble-gases",
+    "atomicOrbitalShells": { "K": 2, "L": 8, "M": 18, "N": 18, "O": 8, "P": null, "Q": null},
+    "atomicNumber": 54,
+    "elementSymbol": "Xe",
+    "elementName": "Xenon",
+    "atomicMass": 131.293
+  }
+]

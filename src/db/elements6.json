@@ -1,0 +1,146 @@
+[
+  {
+    "class": "alkali-metals",
+    "atomicOrbitalShells": { "k": 2, "l": 8, "m": 18, "n": 18, "o": 8, "p": 1, "q": null},
+    "atomicNumber": 55,
+    "elementSymbol": "Cs",
+    "elementName": "Caesium",
+    "atomicMass": 132.90545196
+  },
+  {
+    "class": "alkaline-earth-metals",
+    "atomicOrbitalShells": { "k": 2, "l": 8, "m": 18, "n": 18, "o": 8, "p": 1, "q": null},
+    "atomicNumber": 56,
+    "elementSymbol": "Ba",
+    "elementName": "Barium",
+    "atomicMass": 137.327
+  },
+  {
+    "class": "lanthanoids",
+    "atomicOrbitalShells": { "k": null, "l": null, "m": null, "n": null, "o": null, "p": null, "q": null},
+    "atomicNumber": "57 - 71",
+    "elementSymbol": "Ln",
+    "elementName": "Lanthanoids",
+    "atomicMass": null
+  },
+  {
+    "class": "transition-metals",
+    "atomicOrbitalShells": { "k": 2, "l": 8, "m": 18, "n": 32, "o": 10, "p": 2, "q": null},
+    "atomicNumber": 72,
+    "elementSymbol": "Hf",
+    "elementName": "Hafnium",
+    "atomicMass": 178.49
+  },
+  {
+    "class": "transition-metals",
+    "atomicOrbitalShells": { "k": 2, "l": 8, "m": 18, "n": 32, "o": 11, "p": 2, "q": null},
+    "atomicNumber": 73,
+    "elementSymbol": "Ta",
+    "elementName": "Tantalum",
+    "atomicMass": 180.94788
+  },
+  {
+    "class": "transition-metals",
+    "atomicOrbitalShells": { "k": 2, "l": 8, "m": 18, "n": 32, "o": 12, "p": 2, "q": null},
+    "atomicNumber": 74,
+    "elementSymbol":" W",
+    "elementName": "Tungsten",
+    "atomicMass": 183.84
+  },
+  {
+    "class": "transition-metals",
+    "atomicOrbitalShells": { "k": 2, "l": 8, "m": 18, "n": 32, "o": 13, "p": 2, "q": null},
+    "atomicNumber": 75,
+    "elementSymbol": "Re",
+    "elementName": "Rhenium",
+    "atomicMass": 186.207
+  },
+  {
+    "class": "transition-metals",
+    "atomicOrbitalShells": { "k": 2, "l": 8, "m": 18, "n": 32, "o": 14, "p": 2, "q": null},
+    "atomicNumber": 76,
+    "elementSymbol": "Os",
+    "elementName": "Osmium",
+    "atomicMass": 190.23
+  },
+  {
+    "class": "transition-metals",
+    "atomicOrbitalShells": { "k": 2, "l": 8, "m": 18, "n": 32, "o": 15, "p": 2, "q": null},
+    "atomicNumber": 77,
+    "elementSymbol": "Ir",
+    "elementName": "Iridium",
+    "atomicMass": 192.217
+  },
+  {
+    "class": "transition-metals",
+    "atomicOrbitalShells": { "k": 2, "l": 8, "m": 18, "n": 32, "o": 17, "p": 1, "q": null},
+    "atomicNumber": 78,
+    "elementSymbol": "Pt",
+    "elementName": "Platinum",
+    "atomicMass": 195.084
+  },
+  {
+    "class": "transition-metals",
+    "atomicOrbitalShells": { "k": 2, "l": 8, "m": 18, "n": 32, "o": 18, "p": 1, "q": null},
+    "atomicNumber": 79,
+    "elementSymbol": "Au",
+    "elementName": "Gold",
+    "atomicMass": 196.966569
+  },
+  {
+    "class": "transition-metals",
+    "atomicOrbitalShells": { "k": 2, "l": 8, "m": 18, "n": 32, "o": 18, "p": 2, "q": null},
+    "atomicNumber": 80,
+    "elementSymbol": "Hg",
+    "elementName": "Mercury",
+    "atomicMass": 200.59
+  },
+  {
+    "class": "post-transition-metals",
+    "atomicOrbitalShells": { "k": 2, "l": 8, "m": 18, "n": 32, "o": 18, "p": 3, "q": null},
+    "atomicNumber": 81,
+    "elementSymbol": "Tl",
+    "elementName": "Thallium",
+    "atomicMass": 204.38
+  },
+  {
+    "class": "post-transition-metals",
+    "atomicOrbitalShells": { "k": 2, "l": 8, "m": 18, "n": 32, "o": 18, "p": 4, "q": null},
+    "atomicNumber": 82,
+    "elementSymbol": "Pb",
+    "elementName": "Lead",
+    "atomicMass": 207.2
+  },
+  {
+    "class": "post-transition-metals",
+    "atomicOrbitalShells": { "k": 2, "l": 8, "m": 18, "n": 32, "o": 18, "p": 5, "q": null},
+    "atomicNumber": 83,
+    "elementSymbol": "Bi",
+    "elementName": "Bismuth",
+    "atomicMass": 208.98040
+  },
+  {
+    "class": "metalloids",
+    "atomicOrbitalShells": { "k": 2, "l": 8, "m": 18, "n": 32, "o": 18, "p": 6, "q": null},
+    "atomicNumber": 84,
+    "elementSymbol": "Po",
+    "elementName": "Polonium",
+    "atomicMass": "(209)"
+  },
+  {
+    "class": "halogens",
+    "atomicOrbitalShells": { "k": 2, "l": 8, "m": 18, "n": 32, "o": 18, "p": 7, "q": null},
+    "atomicNumber": 85,
+    "elementSymbol": "At",
+    "elementName": "Astatine",
+    "atomicMass": "(210)"
+  },
+  {
+    "class": "noble-gases",
+    "atomicOrbitalShells": { "k": 2, "l": 8, "m": 18, "n": 32, "o": 18, "p": 8, "q": null},
+    "atomicNumber": 86,
+    "elementSymbol": "Rn",
+    "elementName": "Radon",
+    "atomicMass": "(222)"
+  }
+]
