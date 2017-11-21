@@ -1,5 +1,5 @@
 <template>
-    <div :class="element.class" class="group">
+  <div :class="element.class" class="group box-wrapper loading color" @click="$modal.show('hello-world', { element: element })" v-on:click="clearStyles">
       <div class="atomic-orbital-shells">
         <span class="K">{{element.atomicOrbitalShells.k}}</span>
         <span class="L">{{element.atomicOrbitalShells.l}}</span>
@@ -27,7 +27,18 @@
 <script>
   export default {
     name: 'elementComponent',
-    props: ['element']
+    props: ['element'],
+    methods: {
+      show () {
+        this.$modal.show('hello-world')
+      },
+      clearStyles () {
+        var els = document.getElementsByClassName('color')
+        Array.prototype.forEach.call(els, function (element) {
+          element.removeAttribute('style')
+        })
+      }
+    }
   }
 </script>
 

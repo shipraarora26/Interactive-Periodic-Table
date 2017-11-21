@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="box-wrapper loading">
     <div class="break"></div>
     <div class="period" id="lanthanide-series">
       <div class="group empty">

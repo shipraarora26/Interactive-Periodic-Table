@@ -2,7 +2,7 @@ body {
   margin: 0px;
   width: 100%;
   background: white;
-  font-family: Arial;
+  font-family: avenir;
 }
 
 footer {
@@ -141,7 +141,7 @@ div.no-focus, div.no-focus .group {
   display: inline-block;
   box-sizing: border-box;
   padding: 10px;
-  font-family: arial;
+  font-family: avenir;
   width: 7%;
   flex: 1 1;
   display: flex;
@@ -157,7 +157,6 @@ div.no-focus, div.no-focus .group {
   transform: scale(1.5, 1.5);
   z-index: 9;
   position: relative;
-  cursor: url(/img/cursor-help.png), auto;
 }
 
 .group:hover:after {
@@ -201,43 +200,43 @@ div.no-focus, div.no-focus .group {
 }
 
 .other-nonmetals, .other-nonmetals.no-focus:hover  {
-  background: #76FF03;
+  background: #1FAB9E;
 }
 
 .noble-gases, .noble-gases.no-focus:hover  {
-  background: #df5ff5;
+  background: #B1D781;
 }
 
 .halogens, .halogens.no-focus:hover  {
-  background: #18FFFF;
+  background: #1FABE6;
 }
 
 .metalloids, .metalloids.no-focus:hover  {
-  background: #00E676;
+  background: #1F7293;
 }
 
 .alkaline-earth-metals, .alkaline-earth-metals.no-focus:hover  {
-  background: #eaea18;
+  background: #F14767;
 }
 
 .alkali-metals, .alkali-metals.no-focus:hover  {
-  background: #f7a91d;
+  background: #F17C82;
 }
 
 .transition-metals, .transition-metals.no-focus:hover  {
-  background: #ff3e7f;
+  background: #B98FF1;
 }
 
 .post-transition-metals, .post-transition-metals.no-focus:hover  {
-  background: #40C4FF;
+  background: #FAD02F;
 }
 
 .lanthanoids, .lanthanoids.no-focus:hover  {
-  background: #fd6d3f;
+  background: #F69229;
 }
 
 .actinoids, .actinoids.no-focus:hover  {
-  background: #ff1744;
+  background: #F16950;
 }
 
 #six .lanthanoids, #seven .actinoids {
@@ -327,7 +326,7 @@ div.no-focus, div.no-focus .group {
   position: absolute;
   right: 0;
   left: 0;
-  font-family: arial;
+  font-family: avenir;
 }
 
 .category div {
@@ -380,7 +379,7 @@ div.no-focus, div.no-focus .group {
   left: 0;
   top: 50px;
   z-index: 1;
-  font-family: arial;
+  font-family: avenir;
   justify-content: space-between;
   width: 100%;
   margin: auto;
@@ -425,11 +424,11 @@ div.no-focus, div.no-focus .group {
 }
 
 div#lanthanide-series .group:nth-child(2):after {
-  content: "Ln Series";
+  content: "Lathanoids";
 }
 
 div#actinide-series .group:nth-child(2):after {
-  content: "An Series";
+  content: "Actinoids";
 }
 
 div#lanthanide-series .group:nth-child(2):before, div#actinide-series .group:nth-child(2):before {
@@ -525,6 +524,7 @@ div#lanthanide-series .group:nth-child(2):before, div#actinide-series .group:nth
   }
 
   div#lanthanide-series .group:nth-child(2), div#actinide-series .group:nth-child(2) {
+  overflow: inherit;
     position: relative;
   }
 
