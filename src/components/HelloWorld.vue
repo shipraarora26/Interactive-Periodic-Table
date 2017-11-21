@@ -158,6 +158,7 @@
   }
 
   .close{
+    cursor: pointer;
     position: fixed;
     right: 4%;
     top: 21%;
