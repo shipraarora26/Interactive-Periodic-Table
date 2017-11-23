@@ -37,14 +37,13 @@
     margin-left: 7%;
     margin-right: auto;
   }
+
   .row-two {
-    width: 54.2%;
-    height: 200px;
+    width: 60%;
     position: fixed;
     z-index: 12;
-    margin-top: 7%;
+    margin: 7% 0 2% 12%;
     background-color: transparent;
-    margin-left: 12%;
     margin-right: auto;
 
     text-align: center;
@@ -55,4 +54,34 @@
     margin-left: 20%;
     margin-right: 20%;
   }
-</style>
+
+  @media(max-width: 1700px) {
+    h2 {
+    font-size: 20px;
+    }
+
+    p {
+      font-size: 14px;
+    }
+  }
+
+  @media(max-width: 768px) {
+    h2 {
+      font-size: 14px;
+    }
+
+    p {
+      font-size: 9px;
+    }
+  }
+
+  @media(max-width: 400px) {
+    h2 {
+      font-size: 8px;
+    }
+
+    p {
+      font-size: 0px;
+    }
+  }
+  </style>
