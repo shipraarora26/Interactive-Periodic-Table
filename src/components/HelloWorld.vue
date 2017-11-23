@@ -1,6 +1,7 @@
 <template>
   <div class="app">
     <table-header></table-header>
+    <table-header-details></table-header-details>
     <div class="array">
       <table-element :data="elements_p1" :period="'one'"></table-element>
       <table-element :data="elements_p2" :period="'two'"></table-element>
@@ -56,6 +57,7 @@
 
 <script>
   import tableHeader from '../components/tableHeader.vue'
+  import tableHeaderDetails from '../components/tableHeaderDetails.vue'
   import tableElement from '../components/tableElement.vue'
   import isotopesComponent from '../components/isotopesComponent.vue'
   import factsComponent from '../components/factsComponent.vue'
@@ -64,7 +66,7 @@
   import { db, drop, seed } from '../db'
 
   export default {
-    components: {tableHeader, tableElement, footerComponent, isotopesComponent, factsComponent},
+    components: {tableHeader, tableHeaderDetails, tableElement, footerComponent, isotopesComponent, factsComponent},
     data () {
       return {
         modalElement: {
@@ -90,7 +92,8 @@
         elements_p4: db.get('elements4').value(),
         elements_p5: db.get('elements5').value(),
         elements_p6: db.get('elements6').value(),
-        elements_p7: db.get('elements7').value()
+        elements_p7: db.get('elements7').value(),
+        elements_p8: db.get('elements8').value()
       }
     },
     beforeMount () {

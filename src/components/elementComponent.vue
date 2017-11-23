@@ -36,6 +36,8 @@
         var els = document.getElementsByClassName('color')
         Array.prototype.forEach.call(els, function (element) {
           element.removeAttribute('style')
+          document.getElementById('header-details-title').innerText = ''
+          document.getElementById('header-deatils-text').innerText = ''
         })
       }
     }

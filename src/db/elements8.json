@@ -1,0 +1,146 @@
+[
+  {
+    "class": "empty",
+    "atomicOrbitalShells": { "k": null, "l": null, "m": null, "n": null, "o": null, "p": null, "q": null },
+    "atomicNumber": null,
+    "elementSymbol": null,
+    "elementName": null,
+    "atomicMass": null
+  },
+  {
+    "class": "empty",
+    "atomicOrbitalShells": { "k": null, "l": null, "m": null, "n": null, "o": null, "p": null, "q": null },
+    "atomicNumber": null,
+    "elementSymbol": null,
+    "elementName": null,
+    "atomicMass": null
+  },
+  {
+    "class": "lanthanoids",
+    "atomicOrbitalShells": { "k":2, "l":8, "m":18, "n":18, "o":9, "p":2, "q": null },
+    "atomicNumber": 57,
+    "elementSymbol": "La",
+    "elementName": "Lanthanum",
+    "atomicMass": 138.90547
+  },
+  {
+    "class": "lanthanoids",
+    "atomicOrbitalShells": { "k":2, "l":8, "m":18, "n":19, "o":9, "p":2, "q": null },
+    "atomicNumber": 58,
+    "elementSymbol": "Ce",
+    "elementName": "Cerium",
+    "atomicMass": 140.116
+  },
+  {
+    "class": "lanthanoids",
+    "atomicOrbitalShells": { "k":2, "l":8, "m":18, "n":21, "o":8, "p":2, "q": null },
+    "atomicNumber": 59,
+    "elementSymbol": "Pr",
+    "elementName": "Praseodymium",
+    "atomicMass": 140.90766
+  },
+  {
+    "class": "lanthanoids",
+    "atomicOrbitalShells": { "k":2, "l":8, "m":18, "n":22, "o":8, "p":2, "q": null },
+    "atomicNumber": 60,
+    "elementSymbol": "Nd",
+    "elementName": "Neodymium",
+    "atomicMass": 144.242
+  },
+  {
+    "class": "lanthanoids",
+    "atomicOrbitalShells": { "k":2, "l":8, "m":18, "n":23, "o":8, "p":2, "q": null },
+    "atomicNumber": 61,
+    "elementSymbol": "Pm",
+    "elementName": "Promethium",
+    "atomicMass": "(145)"
+  },
+  {
+    "class": "lanthanoids",
+    "atomicOrbitalShells": { "k":2, "l":8, "m":18, "n":24, "o":8, "p":2, "q": null },
+    "atomicNumber": 62,
+    "elementSymbol": "Sm",
+    "elementName": "Samarium",
+    "atomicMass": 150.36
+  },
+  {
+    "class": "lanthanoids",
+    "atomicOrbitalShells": { "k":2, "l":8, "m":18, "n":25, "o":8, "p":2, "q": null },
+    "atomicNumber": 63,
+    "elementSymbol": "Eu",
+    "elementName": "Europium",
+    "atomicMass": 151.964
+  },
+  {
+    "class": "lanthanoids",
+    "atomicOrbitalShells": { "k":2, "l":8, "m":18, "n":25, "o":9, "p":2, "q": null },
+    "atomicNumber": 64,
+    "elementSymbol": "Gd",
+    "elementName": "Gadolinium",
+    "atomicMass": 157.25
+  },
+  {
+    "class": "lanthanoids",
+    "atomicOrbitalShells": { "k":2, "l":8, "m":18, "n":27, "o":8, "p":2, "q": null },
+    "atomicNumber": 65,
+    "elementSymbol": "Tb",
+    "elementName": "Terbium",
+    "atomicMass": 158.92535
+  },
+  {
+    "class": "lanthanoids",
+    "atomicOrbitalShells": { "k":2, "l":8, "m":18, "n":28, "o":8, "p":2, "q": null },
+    "atomicNumber": 66,
+    "elementSymbol": "Dy",
+    "elementName": "Dysprosium",
+    "atomicMass": 162.500
+  },
+  {
+    "class": "lanthanoids",
+    "atomicOrbitalShells": { "k":2, "l":8, "m":18, "n":29, "o":8, "p":2, "q": null },
+    "atomicNumber": 67,
+    "elementSymbol": "Ho",
+    "elementName": "Holmium",
+    "atomicMass": 164.93033
+  },
+  {
+    "class": "lanthanoids",
+    "atomicOrbitalShells": { "k":2, "l":8, "m":18, "n":30, "o":8, "p":2, "q": null },
+    "atomicNumber": 68,
+    "elementSymbol": "Er",
+    "elementName": "Erbium",
+    "atomicMass": 167.259
+  },
+  {
+    "class": "lanthanoids",
+    "atomicOrbitalShells": { "k":2, "l":8, "m":18, "n":31, "o":8, "p":2, "q": null },
+    "atomicNumber": 69,
+    "elementSymbol": "Tm",
+    "elementName": "Thulium",
+    "atomicMass": 168.93422
+  },
+  {
+    "class": "lanthanoids",
+    "atomicOrbitalShells": { "k":2, "l":8, "m":18, "n":32, "o":8, "p":2, "q": null },
+    "atomicNumber": 70,
+    "elementSymbol": "Yb",
+    "elementName": "Ytterbium",
+    "atomicMass": 173.054
+  },
+  {
+    "class": "lanthanoids",
+    "atomicOrbitalShells": { "k":2, "l":8, "m":18, "n":32, "o":9, "p":2, "q": null },
+    "atomicNumber": 71,
+    "elementSymbol": "Lu",
+    "elementName": "Lutetium",
+    "atomicMass": 174.9668
+  },
+  {
+    "class": "empty",
+    "atomicOrbitalShells": { "k": null, "l": null, "m": null, "n": null, "o": null, "p": null, "q": null },
+    "atomicNumber": null,
+    "elementSymbol": null,
+    "elementName": null,
+    "atomicMass": null
+  }
+]

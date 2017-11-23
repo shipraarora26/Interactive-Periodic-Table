@@ -1,0 +1,147 @@
+
+[
+  {
+    "class": "empty",
+    "atomicOrbitalShells": { "k": null, "l": null, "m": null, "n": null, "o": null, "p": null, "q": null },
+    "atomicNumber": null,
+    "elementSymbol": null,
+    "elementName": null,
+    "atomicMass": null
+  },
+  {
+    "class": "empty",
+    "atomicOrbitalShells": { "k": null, "l": null, "m": null, "n": null, "o": null, "p": null, "q": null },
+    "atomicNumber": null,
+    "elementSymbol": null,
+    "elementName": null,
+    "atomicMass": null
+  },
+  {
+    "class": "actinoids",
+    "atomicOrbitalShells": {"k": 2, "l": 8, "m": 18, "n": 32, "o": 18, "p": 9, "q": 2},
+    "atomicNumber": 89,
+    "elementSymbol": "Ac",
+    "elementName": "Actinium",
+    "atomicMass": "(227)"
+  },
+  {
+    "class": "actinoids",
+    "atomicOrbitalShells": {"k": 2, "l": 8, "m": 18, "n": 32, "o": 18, "p": 10, "q": 2},
+    "atomicNumber": 90,
+    "elementSymbol": "Th",
+    "elementName": "Thorium",
+    "atomicMass": "232.0377"
+  },
+  {
+    "class": "actinoids",
+    "atomicOrbitalShells": {"k": 2, "l": 8, "m": 18, "n": 32, "o": 20, "p": 9, "q": 2},
+    "atomicNumber": 91,
+    "elementSymbol": "Pa",
+    "elementName": "Protactinium",
+    "atomicMass": "231.03588"
+  },
+  {
+    "class": "actinoids",
+    "atomicOrbitalShells": {"k": 2, "l": 8, "m": 18, "n": 32, "o": 21, "p": 9, "q": 2},
+    "atomicNumber": 92,
+    "elementSymbol": "U<",
+    "elementName": "Uranium",
+    "atomicMass": "238.02891"
+  },
+  {
+    "class": "actinoids",
+    "atomicOrbitalShells": {"k": 2, "l": 8, "m": 18, "n": 32, "o": 22, "p": 9, "q": 2},
+    "atomicNumber": 93,
+    "elementSymbol": "Np",
+    "elementName": "Neptunium",
+    "atomicMass": "(237)"
+  },
+  {
+    "class": "actinoids",
+    "atomicOrbitalShells": {"k": 2, "l": 8, "m": 18, "n": 32, "o": 24, "p": 8, "q": 2},
+    "atomicNumber": 94,
+    "elementSymbol": "Pu",
+    "elementName": "Plutonium",
+    "atomicMass": "(244)"
+  },
+  {
+    "class": "actinoids",
+    "atomicOrbitalShells": {"k": 2, "l": 8, "m": 18, "n": 32, "o": 25, "p": 8, "q": 2},
+    "atomicNumber": 95,
+    "elementSymbol": "Am",
+    "elementName": "Americium",
+    "atomicMass": "(243)"
+  },
+  {
+    "class": "actinoids",
+    "atomicOrbitalShells": {"k": 2, "l": 8, "m": 18, "n": 32, "o": 25, "p": 9, "q": 2},
+    "atomicNumber": 96,
+    "elementSymbol": "Cm",
+    "elementName": "Curium",
+    "atomicMass": "(247)"
+  },
+  {
+    "class": "actinoids",
+    "atomicOrbitalShells": {"k": 2, "l": 8, "m": 18, "n": 32, "o": 27, "p": 8, "q": 2},
+    "atomicNumber": 97,
+    "elementSymbol": "Bk",
+    "elementName": "Berkelium",
+    "atomicMass": "(247)"
+  },
+  {
+    "class": "actinoids",
+    "atomicOrbitalShells": {"k": 2, "l": 8, "m": 18, "n": 32, "o": 28, "p": 8, "q": 2},
+    "atomicNumber": 98,
+    "elementSymbol": "Cf",
+    "elementName": "Californium",
+    "atomicMass": "(251)"
+  },
+  {
+    "class": "actinoids",
+    "atomicOrbitalShells": {"k": 2, "l": 8, "m": 18, "n": 32, "o": 29, "p": 8, "q": 2},
+    "atomicNumber": 99,
+    "elementSymbol": "Es",
+    "elementName": "Einsteinium",
+    "atomicMass": "(252)"
+  },
+  {
+    "class": "actinoids",
+    "atomicOrbitalShells": {"k": 2, "l": 8, "m": 18, "n": 32, "o": 30, "p": 8, "q": 2},
+    "atomicNumber": 100,
+    "elementSymbol": "Fm",
+    "elementName": "Fermium",
+    "atomicMass": "(257)"
+  },
+  {
+    "class": "actinoids",
+    "atomicOrbitalShells": {"k": 2, "l": 8, "m": 18, "n": 32, "o": 31, "p": 8, "q": 2},
+    "atomicNumber": 101,
+    "elementSymbol": "Md",
+    "elementName": "Mendelevium",
+    "atomicMass": "(258)"
+  },
+  {
+    "class": "actinoids",
+    "atomicOrbitalShells": {"k": 2, "l": 8, "m": 18, "n": 32, "o": 32, "p": 8, "q": 2},
+    "atomicNumber": 102,
+    "elementSymbol": "No",
+    "elementName": "Nobelium",
+    "atomicMass": "(259)"
+  },
+  {
+    "class": "actinoids",
+    "atomicOrbitalShells": {"k": 2, "l": 8, "m": 18, "n": 32, "o": 32, "p": 8, "q": 3},
+    "atomicNumber": 103,
+    "elementSymbol": "Lr",
+    "elementName": "Lawrencium",
+    "atomicMass": "(262)"
+  },
+  {
+    "class": "empty",
+    "atomicOrbitalShells": { "k": null, "l": null, "m": null, "n": null, "o": null, "p": null, "q": null },
+    "atomicNumber": null,
+    "elementSymbol": null,
+    "elementName": null,
+    "atomicMass": null
+  }
+]

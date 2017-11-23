@@ -7,6 +7,8 @@ import elementsJson4 from './elements4.json'
 import elementsJson5 from './elements5.json'
 import elementsJson6 from './elements6.json'
 import elementsJson7 from './elements7.json'
+import elementsJson8 from './elements8.json'
+import elementsJson9 from './elements9.json'
 
 export const db = low(new LocalStorage('elementsDB'))
 
@@ -22,5 +24,8 @@ export function seed () {
   const elements5 = elementsJson5
   const elements6 = elementsJson6
   const elements7 = elementsJson7
-  db.defaults({ elements1, elements2, elements3, elements4, elements5, elements6, elements7 }).write()
+  const elements8 = elementsJson8
+  const elements9 = elementsJson9
+
+  db.defaults({ elements1, elements2, elements3, elements4, elements5, elements6, elements7, elements8, elements9 }).write()
 }
