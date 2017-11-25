@@ -439,7 +439,6 @@ div#lanthanide-series .group:nth-child(2):before, div#actinide-series .group:nth
 }
 
 @media(max-width: 1700px) {
-
   .atomic-mass {
     max-width: none;
     font-size: 9px;
@@ -456,11 +455,9 @@ div#lanthanide-series .group:nth-child(2):before, div#actinide-series .group:nth
   .atomic-orbital-shells {
     display: none;
   }
-
 }
 
 @media(max-width: 1500px) {
-
   .atomic-mass {
     display: none;
   }
@@ -500,11 +497,9 @@ div#lanthanide-series .group:nth-child(2):before, div#actinide-series .group:nth
   .characteristic div span {
     font-size: 12px;
   }
-
 }
 
 @media(max-width: 1300px) {
-
   .atomic-number {
     font-size: 11px;
     text-align: right;
@@ -549,11 +544,9 @@ div#lanthanide-series .group:nth-child(2):before, div#actinide-series .group:nth
     left: auto;
     bottom: 20px;
   }
-
 }
 
 @media(max-width: 1024px) {
-
   .atomic-number {
     font-size: 12px;
   }
@@ -561,11 +554,9 @@ div#lanthanide-series .group:nth-child(2):before, div#actinide-series .group:nth
   .element-symbol {
     text-align: center;
   }
-
 }
 
 @media(max-width: 980px) {
-
   .element-symbol {
     font-size: 20px;
   }
@@ -578,7 +569,6 @@ div#lanthanide-series .group:nth-child(2):before, div#actinide-series .group:nth
   .atomic-number {
     font-size: 9px;
   }
-
 }
 
 @media(max-width: 768px) {
@@ -639,7 +629,6 @@ div#lanthanide-series .group:nth-child(2):before, div#actinide-series .group:nth
   .card .element-name {
     font-size: 25px;
   }
-
 }
 
 @media(max-width: 600px) {
@@ -695,7 +684,6 @@ div#lanthanide-series .group:nth-child(2):before, div#actinide-series .group:nth
     height: 5px;
     padding: 0px;
   }
-
 }
 
 @media(max-width: 500px) {
@@ -745,7 +733,6 @@ div#lanthanide-series .group:nth-child(2):before, div#actinide-series .group:nth
     border-top-width: 8px !important;
     bottom: -8px !important;
   }
-
 }
 
 @media(max-width: 400px) {
@@ -770,7 +757,6 @@ div#lanthanide-series .group:nth-child(2):before, div#actinide-series .group:nth
   div#lanthanide-series .group:nth-child(2):before, div#actinide-series .group:nth-child(2):before {
     font-size: 10px;
   }
-
 }
 
 @media(max-width: 350px) {
@@ -803,5 +789,4 @@ div#lanthanide-series .group:nth-child(2):before, div#actinide-series .group:nth
   .characteristic .metals {
     max-width: none;
   }
-
 }
