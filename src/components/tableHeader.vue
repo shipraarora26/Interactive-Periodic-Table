@@ -1,5 +1,9 @@
 <template>
   <div class="box-wrapper loading">
+  <section>
+    <img class="bottom" src="../assets/animation/reaction1.png">
+    <img class="top" src="../assets/animation/reaction2.png">
+  </section>
    <div class="characteristic " v-on:click="showNonMetals">
       <div class="metals" v-on:click="showMetals">
         <span>Metals</span>
@@ -210,5 +214,34 @@
 </script>
 
 <style>
+  section {
+    position: relative;
+  }
 
+  section img {
+    position: absolute;
+  }
+
+  .top {
+    animation-name: fade;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    animation-direction: alternate;
+  }
+
+  @keyframes fade {
+    0% {
+      opacity: 1;
+    }
+    25% {
+      opacity: 1;
+    }
+    75% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
 </style>
