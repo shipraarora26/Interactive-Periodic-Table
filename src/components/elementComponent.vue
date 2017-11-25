@@ -1,22 +1,22 @@
 <template>
-  <div :class="element.class" class="group box-wrapper loading color" @click="$modal.show('hello-world', { element: element })" v-on:click="clearStyles">
+  <div :class="element.classification" class="group box-wrapper loading color" @click="$modal.show('hello-world', { element: element })" v-on:click="clearStyles">
       <div class="atomic-orbital-shells">
-        <span class="K">{{element.atomicOrbitalShells.k}}</span>
-        <span class="L">{{element.atomicOrbitalShells.l}}</span>
-        <span class="M">{{element.atomicOrbitalShells.m}}</span>
-        <span class="N">{{element.atomicOrbitalShells.n}}</span>
-        <span class="O">{{element.atomicOrbitalShells.o}}</span>
-        <span class="P">{{element.atomicOrbitalShells.p}}</span>
-        <span class="Q">{{element.atomicOrbitalShells.q}}</span>
+        <span class="K">{{element.firstEnergyLevel}}</span>
+        <span class="L">{{element.secondEnergyLevel}}</span>
+        <span class="M">{{element.thirdEnergyLevel}}</span>
+        <span class="N">{{element.fourthEnergyLevel}}</span>
+        <span class="O">{{element.fifthEnergyLevel}}</span>
+        <span class="P">{{element.sixthEnergyLevel}}</span>
+        <span class="Q">{{element.seventhEnergyLevel}}</span>
       </div>
       <div class="atomic-number">
         {{element.atomicNumber}}
       </div>
       <div class="element-symbol">
-        <strong>{{element.elementSymbol}}</strong>
+        <strong>{{element.Symbol}}</strong>
       </div>
       <div class="element-name">
-        {{element.elementName}}
+        {{element.Name}}
       </div>
       <div class="atomic-mass">
         {{element.atomicMass}}
