@@ -13,43 +13,54 @@
 
       <modal name="hello-world" @before-open="beforeOpen" height="50%" width="90%">
         <span @click="$modal.hide('hello-world')" class="close rounded black"></span>
-        <div class="column left" :class="this.modalElement.params.element.class">
-          symbol: {{this.modalElement.params.element.symbol}}<br>
+        <div class="column left" :class="this.modalElement.params.element.classification">
+          symbol: {{this.modalElement.params.element.Symbol}}<br>
           atomicNumber: {{this.modalElement.params.element.atomicNumber}}<br>
           meltingPoint: {{this.modalElement.params.element.meltingPoint}}<br>
           boilingPoint: {{this.modalElement.params.element.boilingPoint}}<br>
-          protonsCount: {{this.modalElement.params.element.protonsCount}}<br>
-          neutronsCount: {{this.modalElement.params.element.neutronsCount}}<br>
-          classification: {{this.modalElement.params.element.class}}<br>
+          protonsCount: {{this.modalElement.params.element.numberOfProtons}}<br>
+          neutronsCount: {{this.modalElement.params.element.numberOfNeutrons}}<br>
+          classification: {{this.modalElement.params.element.classification}}<br>
           crystalStructure: {{this.modalElement.params.element.crystalStructure}}<br>
           density: {{this.modalElement.params.element.density}}<br>
           color: {{this.modalElement.params.element.color}}<br>
 
           <h1>
-            {{this.modalElement.params.element.elementSymbol}}<br>
-            <small style="font-weight: 100; font-size: 18px;">{{this.modalElement.params.element.elementName}}</small>
+            {{this.modalElement.params.element.Symbol}}<br>
+            <small style="font-weight: 100; font-size: 18px;">{{this.modalElement.params.element.Name}}</small>
           </h1>
         </div>
         <div class="column middle">
+          <img v-bind:src="this.imageSrc" />
+
 
           <h5>Atomic Structure</h5>
-          <span>Number of Energy Levels: {{this.modalElement.params.element.energyLevels}}</span>
-          <br><br>
-          <span>First Energy Level: {{this.modalElement.params.element.firstEnergyLevel}}</span>
-          <span>Second Energy Level: {{this.modalElement.params.element.secondLevel}}</span>
+          <span>Number of Energy Levels: {{this.modalElement.params.element.numberOfEnergyLevels}}</span>
+          <br>
+          <span v-if="this.modalElement.params.element.firstEnergyLevel">First Energy Level: {{this.modalElement.params.element.firstEnergyLevel}}</span><br>
+          <span v-if="this.modalElement.params.element.secondEnergyLevel">Second Energy Level: {{this.modalElement.params.element.secondEnergyLevel}}</span><br>
+          <span v-if="this.modalElement.params.element.thirdEnergyLevel">Third Energy Level: {{this.modalElement.params.element.thirdEnergyLevel}}</span><br>
+          <span v-if="this.modalElement.params.element.fourthEnergyLevel">Fourth Energy Level: {{this.modalElement.params.element.fourthEnergyLevel}}</span><br>
+          <span v-if="this.modalElement.params.element.fifthEnergyLevel">Fifth Energy Level: {{this.modalElement.params.element.fifthEnergyLevel}}</span><br>
+          <span v-if="this.modalElement.params.element.sixthEnergyLevel">Sixth Energy Level: {{this.modalElement.params.element.sixthEnergyLevel}}</span><br>
+          <span v-if="this.modalElement.params.element.seventhEnergyLevel">Seventh Energy Level: {{this.modalElement.params.element.seventhEnergyLevel}}</span><br>
           {{this.modalElement.params.element.elementName}}
         </div>
-        <div class="column right" :class="this.modalElement.params.element.class">
+        <div class="column right" :class="this.modalElement.params.element.classification">
           <div class="element-facts">
             <isotopes-component :element="this.modalElement.params.element"></isotopes-component>
           </div>
           <div class="element-facts">
-            <facts-component :element="this.modalElement.params.element"></facts-component>
+            <facts-component :element="this.modalElement.params.element" :isotopeSrc="this.isotopeSrc" ></facts-component>
           </div>
         </div>
       </modal>
 
       <footer-component></footer-component>
+      <section>
+        <img class="bottom" src="../assets/animation/reaction1.png">
+        <img class="top" src="../assets/animation/reaction2.png">
+      </section>
     </div>
 
   </div>
@@ -69,6 +80,8 @@
     components: {tableHeader, tableHeaderDetails, tableElement, footerComponent, isotopesComponent, factsComponent},
     data () {
       return {
+        imageSrc: null,
+        isotopeSrc: null,
         modalElement: {
           params: {
             element: {
@@ -110,13 +123,25 @@
       },
       beforeOpen (event) {
         this.modalElement = event
+        var str = '/static/imgs/' + this.modalElement.params.element.Name.toLowerCase()
+        str = str.substring(0, str.length - 1)
+        this.imageSrc = str + '.png'
+
+        str = '/static/imgs/' + this.modalElement.params.element.Symbol.toLowerCase()
+        this.isotopeSrc = str + '.png'
+        console.log(this.isotopeSrc)
       }
+
     }
   }
 </script>
 
 <style lang="scss">
   @import '../style/global';
+
+  img {
+    width: 30%;
+  }
 
   .v--modal-overlay[data-modal="hello-world"] {
     background-color: rgba(111,111,111,0.9);
@@ -160,7 +185,7 @@
     min-height: 150px;
   }
 
-  .close{
+  .close {
     cursor: pointer;
     position: fixed;
     right: 4%;

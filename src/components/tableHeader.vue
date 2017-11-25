@@ -1,10 +1,6 @@
 <template>
   <div class="box-wrapper loading">
-  <section>
-    <img class="bottom" src="../assets/animation/reaction1.png">
-    <img class="top" src="../assets/animation/reaction2.png">
-  </section>
-   <div class="characteristic " v-on:click="showNonMetals">
+    <div class="characteristic" v-on:click="showNonMetals">
       <div class="metals" v-on:click="showMetals">
         <span>Metals</span>
       </div>
@@ -19,12 +15,14 @@
       <div class="alkaline-earth-metals color" v-on:click="showAlkalineEarthMetals">
         <span>Alkaline Earth</span>
       </div>
-      <div class="lanthanoids color" v-on:click="showLanthanoids">
-        <span>Lanthanoids</span>
-      </div>
-      <div class="actinoids color" v-on:click="showActinoids">
-        <span>Actinoids</span>
-      </div>
+      <span>
+        <div class="lanthanoids color" style="writing-mode: horizontal-tb; height: 50%; line-height: 300%" v-on:click="showLanthanoids">
+          <span>Lanthanoids</span>
+        </div>
+        <div class="actinoids color" style="writing-mode: horizontal-tb; height: 50%; line-height: 300%" v-on:click="showActinoids">
+          <span>Actinoids</span>
+        </div>
+      </span>
       <div class="transition-metals color" v-on:click="showTransitionMetals">
         <span>Transition</span>
       </div>
@@ -44,6 +42,9 @@
         <span>Noble Gases</span>
       </div>
     </div>
+  <div id="seconds" class="seconds">
+    <div id="bar" class="bar animating"></div>
+  </div>
   </div>
 </template>
 
@@ -214,34 +215,6 @@
 </script>
 
 <style>
-  section {
-    position: relative;
-  }
+  
 
-  section img {
-    position: absolute;
-  }
-
-  .top {
-    animation-name: fade;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-    animation-duration: 1s;
-    animation-direction: alternate;
-  }
-
-  @keyframes fade {
-    0% {
-      opacity: 1;
-    }
-    25% {
-      opacity: 1;
-    }
-    75% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 0;
-    }
-  }
 </style>

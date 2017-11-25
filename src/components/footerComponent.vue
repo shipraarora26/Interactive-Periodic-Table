@@ -1,7 +1,9 @@
 <template>
   <div class="box-wrapper loading">
     <div class="break"></div>
+    <span class="title">Lanthoids</span>
     <table-element :data="elements_p8" :period="'eight'"></table-element>
+    <span class="title">Anthoids</span>
     <table-element :data="elements_p9" :period="'nine'"></table-element>
   </div>
 </template>
@@ -34,5 +36,10 @@
 </script>
 
 <style>
-
+  .title {
+    z-index: 10;
+    position: relative;
+    top: 50px;
+    left: 40px;
+  }
 </style>
