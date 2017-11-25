@@ -1,29 +1,19 @@
 <template>
   <div class="box-wrapper loading">
+   <div class="characteristic " v-on:click="showNonMetals">
+      <div class="metals" v-on:click="showMetals">
+        <span>Metals</span>
+      </div>
+      <div class="non-metals">
+        <span>Nonmetals</span>
+      </div>
+    </div>
     <div class="category">
-      <div class="other-nonmetals color" v-on:click="showOtherNonMetals">
-        <span>Other Nonmetals</span>
-      </div>
-      <div class="noble-gases color" v-on:click="showNobleGases">
-        <span>Noble Gases</span>
-      </div>
-      <div class="halogens color" v-on:click="showHalogens">
-        <span>Halogens</span>
-      </div>
-      <div class="metalloids color" v-on:click="showMetalloids">
-        <span>Metalloids</span>
-      </div>
-      <div class="alkaline-earth-metals color" v-on:click="showAlkalineEarthMetals">
-        <span>Alkaline Earth Metals</span>
-      </div>
       <div class="alkali-metals color" v-on:click="showAlkaliMetals">
         <span>Alkali Metals</span>
       </div>
-      <div class="transition-metals color" v-on:click="showTransitionMetals">
-        <span>Transition Metals</span>
-      </div>
-      <div class="post-transition-metals color" v-on:click="showPostTransitionMetals">
-        <span>Post Transition Metals</span>
+      <div class="alkaline-earth-metals color" v-on:click="showAlkalineEarthMetals">
+        <span>Alkaline Earth</span>
       </div>
       <div class="lanthanoids color" v-on:click="showLanthanoids">
         <span>Lanthanoids</span>
@@ -31,13 +21,23 @@
       <div class="actinoids color" v-on:click="showActinoids">
         <span>Actinoids</span>
       </div>
-    </div>
-    <div class="characteristic " v-on:click="showNonMetals">
-      <div class="non-metals">
-        <span>Nonmetals</span>
+      <div class="transition-metals color" v-on:click="showTransitionMetals">
+        <span>Transition</span>
       </div>
-      <div class="metals" v-on:click="showMetals">
-        <span>Metals</span>
+      <div class="post-transition-metals color" v-on:click="showPostTransitionMetals">
+        <span>Post Transition</span>
+      </div>
+      <div class="metalloids color" v-on:click="showMetalloids">
+        <span>Metalloids</span>
+      </div>
+      <div class="other-nonmetals color" v-on:click="showOtherNonMetals">
+        <span>Other</span>
+      </div>
+      <div class="halogens color" v-on:click="showHalogens">
+        <span>Halogens</span>
+      </div>
+      <div class="noble-gases color" v-on:click="showNobleGases">
+        <span>Noble Gases</span>
       </div>
     </div>
   </div>

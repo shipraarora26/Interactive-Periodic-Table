@@ -1,6 +1,5 @@
 <template>
   <div class="header-details">
-    <div class="row-one" v-on:click="clearStyles"></div>
     <div class="row-two" v-on:click="clearStyles">
       <h2 id="header-details-title"></h2>
       <div class="details">
@@ -40,9 +39,9 @@
 
   .row-two {
     width: 60%;
-    position: fixed;
+    position: absolute;
     z-index: 12;
-    margin: 7% 0 2% 12%;
+    margin: 11% 0 2% 12%;
     background-color: transparent;
     margin-right: auto;
 
@@ -57,17 +56,19 @@
 
   @media(max-width: 1700px) {
     h2 {
-    font-size: 20px;
+      font-size: 20px;
+      margin-bottom: 1%;
     }
 
     p {
-      font-size: 14px;
+      font-size: 12px;
     }
   }
 
   @media(max-width: 768px) {
     h2 {
-      font-size: 14px;
+      font-size: 12px;
+      margin-bottom: 1%;
     }
 
     p {
@@ -78,6 +79,7 @@
   @media(max-width: 400px) {
     h2 {
       font-size: 8px;
+      margin-bottom: 1%;
     }
 
     p {
