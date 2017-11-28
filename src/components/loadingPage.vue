@@ -1,13 +1,13 @@
 <template>
   <div>
-    <div id="seconds" class="seconds">
-      <div id="bar" class="bar animating"></div>
-    </div>
     <section>
       <img class="bottom" src="../assets/animation/reaction1.png">
       <img class="top" src="../assets/animation/reaction2.png">
     </section>
-    <span class="title-loading">Interactive Peridioc table</span>
+    <span class="title-loading">Interactive Periodic table</span>
+    <div id="seconds" class="seconds">
+      <div id="bar" class="bar animating"></div>
+    </div>
   </div>
 </template>
 
@@ -30,7 +30,7 @@
 
 <style>
   .title-loading {
-    width: 200px;
+    width: 30%;
     left: 43%;
     top: 60%;
     color: rgb(228,56,83);

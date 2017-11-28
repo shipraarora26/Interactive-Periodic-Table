@@ -42,9 +42,6 @@
         <span>Noble Gases</span>
       </div>
     </div>
-  <div id="seconds" class="seconds">
-    <div id="bar" class="bar animating"></div>
-  </div>
   </div>
 </template>
 
