@@ -1,9 +1,11 @@
 <template>
   <div class="box-wrapper loading">
     <div class="break"></div>
-    <span class="title">Lanthoids</span>
+    <span class="title sm">Ln</span>
+    <span class="title lg">Lanthoids</span>
     <table-element :data="elements_p8" :period="'eight'"></table-element>
-    <span class="title">Anthoids</span>
+    <span class="title sm">An</span>
+    <span class="title lg">Anthoids</span>
     <table-element :data="elements_p9" :period="'nine'"></table-element>
   </div>
 </template>
@@ -42,4 +44,17 @@
     top: 50px;
     left: 40px;
   }
+
+  .sm {
+    display: none;
+  }
+  @media screen and (max-width: 1020px) {
+    .lg {
+       display:none;
+    }
+
+    .sm {
+       display:inline-block;
+    }
+}
 </style>

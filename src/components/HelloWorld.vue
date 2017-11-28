@@ -11,19 +11,18 @@
       <table-element :data="elements_p6" :period="'six'"></table-element>
       <table-element :data="elements_p7" :period="'seven'"></table-element>
 
-      <modal name="hello-world" @before-open="beforeOpen" height="50%" width="90%">
-        <span @click="$modal.hide('hello-world')" class="close rounded black"></span>
+      <modal name="hello-world" @before-open="beforeOpen" height="auto" :scrollable="true" width="90%">
         <div class="column left" :class="this.modalElement.params.element.classification">
-          symbol: {{this.modalElement.params.element.Symbol}}<br>
-          atomicNumber: {{this.modalElement.params.element.atomicNumber}}<br>
-          meltingPoint: {{this.modalElement.params.element.meltingPoint}}<br>
-          boilingPoint: {{this.modalElement.params.element.boilingPoint}}<br>
-          protonsCount: {{this.modalElement.params.element.numberOfProtons}}<br>
-          neutronsCount: {{this.modalElement.params.element.numberOfNeutrons}}<br>
-          classification: {{this.modalElement.params.element.classification}}<br>
-          crystalStructure: {{this.modalElement.params.element.crystalStructure}}<br>
-          density: {{this.modalElement.params.element.density}}<br>
-          color: {{this.modalElement.params.element.color}}<br>
+          Symbol: {{this.modalElement.params.element.Symbol || 'Unknown'}}<br>
+          Atomic Number: {{this.modalElement.params.element.atomicNumber || 'Unknown'}}<br>
+          Melting Point: {{this.modalElement.params.element.meltingPoint || 'Unknown'}}<br>
+          Boiling Point: {{this.modalElement.params.element.boilingPoint || 'Unknown'}}<br>
+          Protons Count: {{this.modalElement.params.element.numberOfProtons || 'Unknown'}}<br>
+          Neutrons Count: {{this.modalElement.params.element.numberOfNeutrons || 'Unknown'}}<br>
+          Classification: {{this.modalElement.params.element.classification || 'Unknown'}}<br>
+          Crystal Structure: {{this.modalElement.params.element.crystalStructure || 'Unknown'}}<br>
+          Density: {{this.modalElement.params.element.density || 'Unknown'}}<br>
+          Color: {{this.modalElement.params.element.color || 'Unknown'}}<br>
 
           <h1>
             {{this.modalElement.params.element.Symbol}}<br>
@@ -31,11 +30,11 @@
           </h1>
         </div>
         <div class="column middle">
-          <img v-bind:src="this.imageSrc" />
+          <img v-bind:src="this.imageSrc" alt="no-image-available"/>
 
 
           <h5>Atomic Structure</h5>
-          <span>Number of Energy Levels: {{this.modalElement.params.element.numberOfEnergyLevels}}</span>
+          <span>Number of Energy Levels: {{this.modalElement.params.element.numberOfEnergyLevels || 'Unknown'}}</span>
           <br>
           <span v-if="this.modalElement.params.element.firstEnergyLevel">First Energy Level: {{this.modalElement.params.element.firstEnergyLevel}}</span><br>
           <span v-if="this.modalElement.params.element.secondEnergyLevel">Second Energy Level: {{this.modalElement.params.element.secondEnergyLevel}}</span><br>
@@ -47,20 +46,17 @@
           {{this.modalElement.params.element.elementName}}
         </div>
         <div class="column right" :class="this.modalElement.params.element.classification">
+          <span @click="$modal.hide('hello-world')" class="close rounded black"></span>
           <div class="element-facts">
-            <isotopes-component :element="this.modalElement.params.element"></isotopes-component>
+            <isotopes-component :element="this.modalElement.params.element" :isotopeSrc="this.isotopeSrc" ></isotopes-component>
           </div>
           <div class="element-facts">
-            <facts-component :element="this.modalElement.params.element" :isotopeSrc="this.isotopeSrc" ></facts-component>
+            <facts-component :element="this.modalElement.params.element" ></facts-component>
           </div>
         </div>
       </modal>
 
       <footer-component></footer-component>
-      <section>
-        <img class="bottom" src="../assets/animation/reaction1.png">
-        <img class="top" src="../assets/animation/reaction2.png">
-      </section>
     </div>
 
   </div>
@@ -124,11 +120,10 @@
       beforeOpen (event) {
         this.modalElement = event
         var str = '/static/imgs/' + this.modalElement.params.element.Name.toLowerCase()
-        str = str.substring(0, str.length - 1)
         this.imageSrc = str + '.png'
 
-        str = '/static/imgs/' + this.modalElement.params.element.Symbol.toLowerCase()
-        this.isotopeSrc = str + '.png'
+        var iso = '/static/imgs/' + this.modalElement.params.element.Symbol.toLowerCase()
+        this.isotopeSrc = iso + '.png'
         console.log(this.isotopeSrc)
       }
 
@@ -140,92 +135,294 @@
   @import '../style/global';
 
   img {
-    width: 30%;
+    width: 60%;
   }
 
-  .v--modal-overlay[data-modal="hello-world"] {
-    background-color: rgba(111,111,111,0.9);
-  }
-
-  .v--modal {
-    background-color: white;
-    text-align: left;
-    min-height: 400px;
-    border-radius: 10px;
-    box-shadow: 0 20px 60px -2px rgba(27, 33, 58, .4);
-    padding: 0;
-  }
-
-  .column{
-    display: inline-table;
-    width: 30%;
-    min-height: 100%;
-    padding: 15px;
-    text-align: left;
-  }
-
-  .left {
-    float: left;
-    color: white;
-  }
-
-  .middle {
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    color: black;
-  }
-
-  .right {
-    float: right;
-    color: white;
-  }
-
-  .element-facts {
-    min-height: 150px;
-  }
-
-  .close {
-    cursor: pointer;
-    position: fixed;
-    right: 4%;
-    top: 21%;
-    display: inline-block;
-    width: 31px;
-    height: 53px;
-    &:hover {
-      &::before, &::after {
-        background: #1ebcc5;
-      }
+  @media(max-width: 1700px) {
+    .v--modal-overlay[data-modal="hello-world"] {
+      background-color: rgba(111,111,111,0.9);
     }
 
-    &::before, &::after {
-      content: '';
-      position: absolute;
-      height: 2px;
+    .v--modal {
+      background-color: white;
+      text-align: left;
+      min-height: 600px;
+      top: 100px;
+      border-radius: 10px;
+      box-shadow: 0 20px 60px -2px rgba(27, 33, 58, .4);
+      padding: 0;
+    }
+
+    .column {
+      display: inline-block;
+      width: 30%;
+      height: 600px;
+      margin-bottom: -10px;
+      min-height: 100%;
+      padding: 15px 15px 0 15px;
+      text-align: left;
+    }
+
+    .left {
+      float: left;
+      color: white;
+    }
+
+    .middle {
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+      color: black;
+      overflow: scroll;
+    }
+
+    .right {
+      float: right;
+      color: white;
+    }
+
+    .element-facts {
+      min-height: 150px;
+    }
+
+    .close {
+      cursor: pointer;
+      position: fixed;
+      right: 4%;
+      top: 7%;
+      width: 31px;
+      height: 53px;
+      &:hover {
+        &::before, &::after {
+          background: #1ebcc5;
+        }
+      }
+
+      &::before, &::after {
+        content: '';
+        position: absolute;
+        height: 2px;
+        width: 100%;
+        top: 50%;
+        left: 0;
+        background: #000;
+      }
+
+      &::before {
+        transform: rotate(45deg);
+      }
+
+      &::after {
+        transform: rotate(-45deg);
+      }
+
+      &.black {
+        &::before, &::after {
+          height: 6px;
+        }
+      }
+
+      &.rounded {
+        &::before, &::after {
+          border-radius: 5px;
+        }
+      }
+    }
+  }
+  @media(max-width: 1000px) {
+    .v--modal-overlay[data-modal="hello-world"] {
+      background-color: rgba(111,111,111,0.9);
+    }
+
+    .v--modal-overlay .v--modal-box {
+      overflow: scroll !important;
+    }
+
+    .v--modal {
+      background-color: white;
+      text-align: left;
+      min-height: 400px;
+      border-radius: 10px;
+      box-shadow: 0 20px 60px -2px rgba(27, 33, 58, .4);
+      padding: 0;
+    }
+
+    .column {
+      display: inline-table;
       width: 100%;
-      top: 50%;
-      left: 0;
-      background: #000;
+      min-height: 100%;
+      text-align: left;
     }
 
-    &::before {
-      transform: rotate(45deg);
+    .left {
+      color: white;
     }
 
-    &::after {
-      transform: rotate(-45deg);
-    }
-
-    &.black {
-      &::before, &::after {
-        height: 6px;
+    .middle {
+      color: black;
+      text-align: center;
+      img {
+        width: 50%;
+      }
+      span {
+        display: inherit !important;
       }
     }
 
-    &.rounded {
+    .right {
+      color: black;
+      text-align: center;
+      width: 100%;
+      img {
+        width: 50%;
+      }
+      span {
+        display: inherit !important;
+      }
+    }
+
+    .close {
+      cursor: pointer;
+      position: fixed;
+      right: 3%;
+      top: -2%;
+      width: 31px;
+      height: 53px;
+
+      &:hover {
+        &::before, &::after {
+          background: #1ebcc5;
+        }
+      }
+
       &::before, &::after {
-        border-radius: 5px;
+        content: '';
+        position: absolute;
+        height: 2px;
+        width: 100%;
+        top: 50%;
+        left: 0;
+        background: #fff;
+      }
+
+      &::before {
+        transform: rotate(45deg);
+      }
+
+      &::after {
+        transform: rotate(-45deg);
+      }
+
+      &.black {
+        &::before, &::after {
+          height: 6px;
+        }
+      }
+
+      &.rounded {
+        &::before, &::after {
+          border-radius: 5px;
+        }
+      }
+    }
+  }
+
+  @media(max-width: 380px) {
+    .v--modal-overlay[data-modal="hello-world"] {
+      background-color: rgba(1,1,1,0.9);
+    }
+
+    .v--modal-overlay .v--modal-box {
+      overflow: scroll !important;
+    }
+
+    .v--modal {
+      background-color: white;
+      text-align: left;
+      min-height: 400px;
+      border-radius: 10px;
+      box-shadow: 0 20px 60px -2px rgba(27, 33, 58, .4);
+      padding: 0;
+    }
+
+    .column {
+      display: inline-table;
+      width: 100%;
+      min-height: 100%;
+      padding: 15px;
+      text-align: left;
+    }
+
+    .left {
+      color: white;
+    }
+
+    .middle {
+      color: black;
+      text-align: center;
+      img {
+        width: 80%;
+      }
+      span {
+        display: inherit !important;
+      }
+    }
+
+    .right {
+      color: black;
+      text-align: center;
+      width: 90%;
+      img {
+        width: 80%;
+      }
+      span {
+        display: inherit !important;
+      }
+    }
+
+    .close {
+      cursor: pointer;
+      position: fixed;
+      right: 3%;
+      top: -2%;
+      display: inline-block;
+      width: 30px;
+      height: 30px;
+
+      &:hover {
+        &::before, &::after {
+          background: #1ebcc5;
+        }
+      }
+
+      &::before, &::after {
+        content: '';
+        position: absolute;
+        height: 2px;
+        width: 100%;
+        top: 50%;
+        left: 0;
+        background: #fff;
+      }
+
+      &::before {
+        transform: rotate(45deg);
+      }
+
+      &::after {
+        transform: rotate(-45deg);
+      }
+
+      &.black {
+        &::before, &::after {
+          height: 6px;
+        }
+      }
+
+      &.rounded {
+        &::before, &::after {
+          border-radius: 5px;
+        }
       }
     }
   }

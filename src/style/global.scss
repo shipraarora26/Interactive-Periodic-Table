@@ -324,7 +324,6 @@ div.no-focus, div.no-focus .group {
   display: flex;
   justify-content: center;
   position: absolute;
-  height: 11%;
   right: 0;
   left: 0;
   margin-top: 3%;
@@ -398,8 +397,8 @@ div.no-focus, div.no-focus .group {
   text-align: center;
   padding: 5.5px 0px;
   box-sizing: border-box;
-  position: relative;
   border: 2px solid black;
+  width: 40%;
   border-bottom: 0px;
   justify-content: center;
   display: flex;

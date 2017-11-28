@@ -16,10 +16,10 @@
         <span>Alkaline Earth</span>
       </div>
       <span>
-        <div class="lanthanoids color" style="writing-mode: horizontal-tb; height: 50%; line-height: 300%" v-on:click="showLanthanoids">
+        <div class="lanthanoids color" v-on:click="showLanthanoids">
           <span>Lanthanoids</span>
         </div>
-        <div class="actinoids color" style="writing-mode: horizontal-tb; height: 50%; line-height: 300%" v-on:click="showActinoids">
+        <div class="actinoids color" v-on:click="showActinoids">
           <span>Actinoids</span>
         </div>
       </span>
@@ -215,6 +215,15 @@
 </script>
 
 <style>
-  
+  span .actinoids {
+    writing-mode: horizontal-tb !important; 
+    height: 50% !important; 
+    line-height: 300% !important; 
+  } 
+  span .lanthanoids { 
+    writing-mode: horizontal-tb !important; 
+    height: 50% !important; 
+    line-height: 300% !important;
+  }
 
 </style>

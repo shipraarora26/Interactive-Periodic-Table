@@ -1,12 +1,12 @@
 <template>
   <div>
-    <h4>Fun Facts about {{element.elementName}}</h4>
-    <span>Date of Discovery: {{element.dateOfDiscovery}}</span><br>
-    <span>Discoverer: {{element.discoverer}}</span><br>
-    <span>Origin of Name: {{element.nameOrigin}}</span><br>
-    <span>Origin of Symbol: {{element.symbolOrigin}}</span><br>
-    <span>Uses: {{element.uses}}</span><br>
-    <span>Obtained From: {{element.obtainedFrom}}</span><br>
+    <h4>Facts about {{element.Name || 'Unknown'}}</h4>
+    <span>Date of Discovery: {{element.dateOfDiscovery || 'Unknown'}}</span><br>
+    <span>Discoverer: {{element.discoverer || 'Unknown'}}</span><br>
+    <span>Origin of Name: {{element.nameOrigin || 'Unknown'}}</span><br>
+    <span>Origin of Symbol: {{element.symbolOrigin || 'Unknown'}}</span><br>
+    <span>Uses: {{element.uses || 'Unknown'}}</span><br>
+    <span>Obtained From: {{element.obtainedFrom || 'Unknown'}}</span><br>
   </div>
 </template>
 
@@ -23,5 +23,7 @@
 </script>
 
 <style>
-  
+  h4 {
+    margin: 0 0 5px 0;
+  }
 </style>

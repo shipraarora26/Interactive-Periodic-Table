@@ -1,7 +1,7 @@
 <template>
   <div>
     <h3>Isotopes</h3>
-    <img class="isotopes" v-bind:src="this.isotopeSrc" />
+    <img class="isotopes" v-bind:src="this.isotopeSrc" alt="no-image-available"/>
   </div>
 </template>
 
@@ -13,18 +13,17 @@
       show () {
         this.$modal.show('hello-world')
       }
+    },
+    beforeMount () {
+      console.log(this)
     }
   }
 </script>
 
 <style>
-  td {
-    width: 30%;
+  h3 {
+    margin: 0 0 5px 0;
   }
-  table, th, td {
-    border: 1px solid white;
-  }
-
   .isotopes {
     width: 70%;
   }
