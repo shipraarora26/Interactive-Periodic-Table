@@ -23,7 +23,7 @@
     },
     mounted () {
       var router = this.$router
-      setTimeout(function () { router.push('/app') }, 1200)
+      setTimeout(function () { console.log(router.push()) }, 1200)
     }
   }
 </script>
