@@ -11,7 +11,7 @@
       <table-element :data="elements_p6" :period="'six'"></table-element>
       <table-element :data="elements_p7" :period="'seven'"></table-element>
 
-      <modal name="hello-world" @before-open="beforeOpen" height="auto" :scrollable="true" width="90%">
+      <modal name="hello-world" @before-open="beforeOpen" height="auto" :scrollable="true" width="85%">
         <div class="column left" :class="this.modalElement.params.element.classification">
           Symbol: {{this.modalElement.params.element.Symbol || 'Unknown'}}<br>
           Atomic Number: {{this.modalElement.params.element.atomicNumber || 'Unknown'}}<br>
@@ -30,10 +30,10 @@
           </h1>
         </div>
         <div class="column middle">
-          <img v-bind:src="this.imageSrc" alt="no-image-available"/>
+          <img v-bind:src="this.imageSrc" alt="No image available"/>
 
 
-          <h5>Atomic Structure</h5>
+          <h4>Atomic Structure</h4>
           <span>Number of Energy Levels: {{this.modalElement.params.element.numberOfEnergyLevels || 'Unknown'}}</span>
           <br>
           <span v-if="this.modalElement.params.element.firstEnergyLevel">First Energy Level: {{this.modalElement.params.element.firstEnergyLevel}}</span><br>
@@ -147,7 +147,7 @@
       background-color: white;
       text-align: left;
       min-height: 600px;
-      top: 100px;
+      top: 13px !important;
       border-radius: 10px;
       box-shadow: 0 20px 60px -2px rgba(27, 33, 58, .4);
       padding: 0;
@@ -166,6 +166,7 @@
     .left {
       float: left;
       color: white;
+      font-size: 13px;
     }
 
     .middle {
@@ -174,6 +175,7 @@
       margin-right: auto;
       color: black;
       overflow: scroll;
+      font-size: 13px;
     }
 
     .right {
@@ -183,13 +185,14 @@
 
     .element-facts {
       min-height: 150px;
+      margin-bottom: 30px;
     }
 
     .close {
       cursor: pointer;
       position: fixed;
-      right: 4%;
-      top: 7%;
+      right: 6.5%;
+      top: -2%;
       width: 31px;
       height: 53px;
       &:hover {
@@ -229,6 +232,7 @@
       }
     }
   }
+
   @media(max-width: 1000px) {
     .v--modal-overlay[data-modal="hello-world"] {
       background-color: rgba(111,111,111,0.9);
@@ -242,6 +246,7 @@
       background-color: white;
       text-align: left;
       min-height: 400px;
+      top: 13px !important;
       border-radius: 10px;
       box-shadow: 0 20px 60px -2px rgba(27, 33, 58, .4);
       padding: 0;
@@ -256,11 +261,13 @@
 
     .left {
       color: white;
+      font-size: 12px;
     }
 
     .middle {
       color: black;
       text-align: center;
+      font-size: 12px;
       img {
         width: 50%;
       }
@@ -284,8 +291,8 @@
     .close {
       cursor: pointer;
       position: fixed;
-      right: 3%;
-      top: -2%;
+      right: 6%;
+      top: -1%;
       width: 31px;
       height: 53px;
 
@@ -340,6 +347,7 @@
       background-color: white;
       text-align: left;
       min-height: 400px;
+      top: 10px !important;
       border-radius: 10px;
       box-shadow: 0 20px 60px -2px rgba(27, 33, 58, .4);
       padding: 0;
@@ -383,7 +391,7 @@
     .close {
       cursor: pointer;
       position: fixed;
-      right: 3%;
+      right: 6%;
       top: -2%;
       display: inline-block;
       width: 30px;

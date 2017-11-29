@@ -1,6 +1,5 @@
 <template>
   <div class="box-wrapper loading">
-    <div class="break"></div>
     <span class="title sm">Ln</span>
     <span class="title lg">Lanthoids</span>
     <table-element :data="elements_p8" :period="'eight'"></table-element>
@@ -48,6 +47,7 @@
   .sm {
     display: none;
   }
+  
   @media screen and (max-width: 1020px) {
     .lg {
        display:none;

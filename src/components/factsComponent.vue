@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="facts">
     <h4>Facts about {{element.Name || 'Unknown'}}</h4>
     <span>Date of Discovery: {{element.dateOfDiscovery || 'Unknown'}}</span><br>
     <span>Discoverer: {{element.discoverer || 'Unknown'}}</span><br>
@@ -23,7 +23,26 @@
 </script>
 
 <style>
+  .facts {
+    color: white;
+    font-family: avenir;
+  }
+
+  .facts span {
+    font-size: 13px;
+  }
+
+  @media(max-width: 1000px) {
+    .facts span {
+        text-align: left;
+        margin: 0 0 0 40px;
+        line-height: 0.5;
+        font-size: 12px;
+      }
+  }
+
   h4 {
-    margin: 0 0 5px 0;
+    margin: 0 0 15px 0;
+    font-size: 18px;
   }
 </style>
