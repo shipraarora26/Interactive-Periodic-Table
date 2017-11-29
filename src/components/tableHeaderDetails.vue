@@ -1,9 +1,10 @@
 <template>
   <div class="header-details">
+    <div class="row-one" v-on:click="clearStyles"></div>
     <div class="row-two" v-on:click="clearStyles">
       <h2 id="header-details-title"></h2>
       <div class="details">
-        <p id="header-deatils-text"></p>
+        <p id="header-details-text"></p>
       </div>
     </div>
   </div>
@@ -18,7 +19,7 @@
         Array.prototype.forEach.call(els, function (element) {
           element.removeAttribute('style')
           document.getElementById('header-details-title').innerText = ''
-          document.getElementById('header-deatils-text').innerText = ''
+          document.getElementById('header-details-text').innerText = ''
         })
       }
     }
@@ -28,23 +29,20 @@
 <style>
   .row-one {
     width: 86.2%;
-    height: 100px;
+    height: 154px;
     position: fixed;
     z-index: 8;
     margin-top: 1.2%;
-    background-color: transparent;
     margin-left: 7%;
     margin-right: auto;
   }
 
   .row-two {
-    width: 60%;
+    width: 54%;
+    height: 150px;
     position: absolute;
-    z-index: 12;
-    margin: 11% 0 2% 12%;
-    background-color: transparent;
+    margin: 12% 0 2% 12%;
     margin-right: auto;
-
     text-align: center;
   }
 

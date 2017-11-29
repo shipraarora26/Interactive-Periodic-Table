@@ -37,7 +37,7 @@
         Array.prototype.forEach.call(els, function (element) {
           element.removeAttribute('style')
           document.getElementById('header-details-title').innerText = ''
-          document.getElementById('header-deatils-text').innerText = ''
+          document.getElementById('header-details-text').innerText = ''
         })
       }
     }

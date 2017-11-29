@@ -53,8 +53,8 @@
     methods: {
       showOtherNonMetals: function (event) {
         var els = document.getElementsByClassName('color')
-        document.getElementById('header-details-title').innerText = 'Other NonMetals'
-        document.getElementById('header-deatils-text').innerText = 'Usually soft and have low melting temperature can be found close to the zigzag line on the periodic table'
+        document.getElementById('header-details-title').innerText = 'Other Non Metals'
+        document.getElementById('header-details-text').innerText = 'Usually soft and have low melting temperature can be found close to the zigzag line on the periodic table.'
         Array.prototype.forEach.call(els, function (element) {
           element.removeAttribute('style')
           if (!element.classList.contains('empty')) {
@@ -67,7 +67,7 @@
       showNobleGases: function (event) {
         var els = document.getElementsByClassName('color')
         document.getElementById('header-details-title').innerText = 'Noble Gases'
-        document.getElementById('header-deatils-text').innerText = 'Inactive, or inert. Each atom has exactly the number of electrons it needs to have to a full outer shell, so these atoms almost never bond with other atoms. That is why these are all gases.'
+        document.getElementById('header-details-text').innerText = 'Inactive, or inert. Each atom has exactly the number of electrons it needs to have to a full outer shell, so these atoms almost never bond with other atoms. That is why these are all gases.'
         Array.prototype.forEach.call(els, function (element) {
           element.removeAttribute('style')
           if (!element.classList.contains('empty')) {
@@ -80,7 +80,7 @@
       showHalogens: function (event) {
         var els = document.getElementsByClassName('color')
         document.getElementById('header-details-title').innerText = 'Halogens'
-        document.getElementById('header-deatils-text').innerText = 'Reactive nonmetals and readily form compounds but are not found free in nature. They combine with alkali metals to form salts (halogen means salt-former).'
+        document.getElementById('header-details-text').innerText = 'Reactive nonmetals and readily form compounds but are not found free in nature. They combine with alkali metals to form salts (halogen means salt-former).'
         Array.prototype.forEach.call(els, function (element) {
           element.removeAttribute('style')
           if (!element.classList.contains('empty')) {
@@ -93,7 +93,7 @@
       showMetalloids: function (event) {
         var els = document.getElementsByClassName('color')
         document.getElementById('header-details-title').innerText = 'Metalloids'
-        document.getElementById('header-deatils-text').innerText = 'In their solid state they are usually brittle (the break rather then bend) nod they are insulators of both heat and electricity'
+        document.getElementById('header-details-text').innerText = 'In their solid state they are usually brittle (the break rather then bend) nod they are insulators of both heat and electricity.'
         Array.prototype.forEach.call(els, function (element) {
           element.removeAttribute('style')
           if (!element.classList.contains('empty')) {
@@ -106,7 +106,7 @@
       showAlkalineEarthMetals: function (event) {
         var els = document.getElementsByClassName('color')
         document.getElementById('header-details-title').innerText = 'Alkaline Earth Metals'
-        document.getElementById('header-deatils-text').innerText = 'In their solid state they are usually brittle (the break rather then bend) nod they are insulators of both heat and electricity'
+        document.getElementById('header-details-text').innerText = 'In their solid state they are usually brittle (the break rather then bend) nod they are insulators of both heat and electricity.'
         Array.prototype.forEach.call(els, function (element) {
           element.removeAttribute('style')
           if (!element.classList.contains('empty')) {
@@ -119,7 +119,7 @@
       showAlkaliMetals: function (event) {
         var els = document.getElementsByClassName('color')
         document.getElementById('header-details-title').innerText = 'Alkali Metals'
-        document.getElementById('header-deatils-text').innerText = 'Partly like metals and partly like non-metals. For example, they are semiconductors, which means they conduct electricity in some conditions.'
+        document.getElementById('header-details-text').innerText = 'Partly like metals and partly like non-metals. For example, they are semiconductors, which means they conduct electricity in some conditions.'
         Array.prototype.forEach.call(els, function (element) {
           element.removeAttribute('style')
           if (!element.classList.contains('empty')) {
@@ -132,7 +132,7 @@
       showTransitionMetals: function (event) {
         var els = document.getElementsByClassName('color')
         document.getElementById('header-details-title').innerText = 'Transition Metals'
-        document.getElementById('header-deatils-text').innerText = 'Typical metals: they are strong, shiny, malleable (they can be hammered into shape), flexible (in thin sheets and wires), and they conduct both heat and electricity.'
+        document.getElementById('header-details-text').innerText = 'Typical metals: they are strong, shiny, malleable (they can be hammered into shape), flexible (in thin sheets and wires), and they conduct both heat and electricity.'
         Array.prototype.forEach.call(els, function (element) {
           element.removeAttribute('style')
           if (!element.classList.contains('empty')) {
@@ -145,7 +145,7 @@
       showPostTransitionMetals: function (event) {
         var els = document.getElementsByClassName('color')
         document.getElementById('header-details-title').innerText = 'Post Transition Metals'
-        document.getElementById('header-deatils-text').innerText = 'Typical metals: they are strong, shiny, malleable (they can be hammered into shape), flexible (in thin sheets and wires), and they conduct both heat and electricity.'
+        document.getElementById('header-details-text').innerText = 'Typical metals: they are strong, shiny, malleable (they can be hammered into shape), flexible (in thin sheets and wires), and they conduct both heat and electricity.'
         Array.prototype.forEach.call(els, function (element) {
           element.removeAttribute('style')
           if (!element.classList.contains('empty')) {
@@ -158,7 +158,7 @@
       showLanthanoids: function (event) {
         var els = document.getElementsByClassName('color')
         document.getElementById('header-details-title').innerText = 'Lanthanoids'
-        document.getElementById('header-deatils-text').innerText = 'Soft, malleable, high luster and conductivity. Used in industry to make various alloys and high-quality glass form trivalent cations by giving electrons to Nonmetals and Halogens'
+        document.getElementById('header-details-text').innerText = 'Soft, malleable, high luster and conductivity. Used in industry to make various alloys and high-quality glass form trivalent cations by giving electrons to Nonmetals and Halogens'
         Array.prototype.forEach.call(els, function (element) {
           element.removeAttribute('style')
           if (!element.classList.contains('empty')) {
@@ -171,7 +171,7 @@
       showActinoids: function (event) {
         var els = document.getElementsByClassName('color')
         document.getElementById('header-details-title').innerText = 'Actinoids'
-        document.getElementById('header-deatils-text').innerText = 'All are radioactive, most are synthetic, some used as energy source in nuclear power plants and nuclear weapons, all are pyrophoric meaning they catch on fire when they react with air react frequently with elements in group 16 and 17, Nonmetals and Halogens'
+        document.getElementById('header-details-text').innerText = 'All are radioactive, most are synthetic, some used as energy source in nuclear power plants and nuclear weapons, all are pyrophoric meaning they catch on fire when they react with air react frequently with elements in group 16 and 17, Nonmetals and Halogens.'
         Array.prototype.forEach.call(els, function (element) {
           element.removeAttribute('style')
           if (!element.classList.contains('empty')) {
@@ -184,7 +184,7 @@
       showNonMetals: function (event) {
         var els = document.getElementsByClassName('color')
         document.getElementById('header-details-title').innerText = 'NonMetals'
-        document.getElementById('header-deatils-text').innerText = 'In their solid state they are usually brittle (the break rather then bend) nod they are insulators of both heat and electricity'
+        document.getElementById('header-details-text').innerText = 'In their solid state they are usually brittle (the break rather then bend) nod they are insulators of both heat and electricity.'
         Array.prototype.forEach.call(els, function (element) {
           element.removeAttribute('style')
           if (!element.classList.contains('empty')) {
@@ -197,7 +197,7 @@
       showMetals: function (event) {
         var els = document.getElementsByClassName('color')
         document.getElementById('header-details-title').innerText = 'Metals'
-        document.getElementById('header-deatils-text').innerText = 'In their solid state they are usually brittle (the break rather then bend) nod they are insulators of both heat and electricity'
+        document.getElementById('header-details-text').innerText = 'In their solid state they are usually brittle (the break rather then bend) nod they are insulators of both heat and electricity.'
         Array.prototype.forEach.call(els, function (element) {
           element.removeAttribute('style')
           if (!element.classList.contains('empty')) {
