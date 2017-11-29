@@ -1,7 +1,7 @@
 <template>
   <section>
-    <img class="bottom" src="../assets/animation/reaction1.png">
-    <img class="top" src="../assets/animation/reaction2.png">
+    <img class="bottom" src="dist/static/img/reaction1.png">
+    <img class="top" src="dist/static/img/reaction2.png">
     <span class="title-loading">Interactive Periodic Table</span>
     <div id="seconds" class="seconds">
       <div id="bar" class="bar animating"></div>
@@ -21,7 +21,7 @@
     },
     mounted () {
       var router = this.$router
-      setTimeout(function () { router.push('/app') }, 2000)
+      setTimeout(function () { router.push('/app') }, 4000)
     }
   }
 </script>

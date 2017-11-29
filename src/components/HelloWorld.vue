@@ -119,10 +119,10 @@
       },
       beforeOpen (event) {
         this.modalElement = event
-        var str = '/static/imgs/' + this.modalElement.params.element.Name.toLowerCase()
+        var str = 'dist/static/imgs/' + this.modalElement.params.element.Name.toLowerCase()
         this.imageSrc = str + '.png'
 
-        var iso = '/static/imgs/' + this.modalElement.params.element.Symbol.toLowerCase()
+        var iso = 'dist/static/imgs/' + this.modalElement.params.element.Symbol.toLowerCase()
         this.isotopeSrc = iso + '.png'
         console.log(this.isotopeSrc)
       }
