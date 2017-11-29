@@ -1,14 +1,12 @@
 <template>
-  <div>
-    <section>
-      <img class="bottom" src="../assets/animation/reaction1.png">
-      <img class="top" src="../assets/animation/reaction2.png">
-    </section>
+  <section>
+    <img class="bottom" src="../assets/animation/reaction1.png">
+    <img class="top" src="../assets/animation/reaction2.png">
     <span class="title-loading">Interactive Periodic Table</span>
     <div id="seconds" class="seconds">
       <div id="bar" class="bar animating"></div>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>
@@ -31,13 +29,20 @@
 <style>
   .title-loading {
     width: 30%;
-    left: 43%;
+    left: 42%;
     top: 60%;
     color: rgb(228,56,83);
     position: absolute;
     font-family: avenir;
     font-size: 18px;
     font-weight: bold;
+  }
+
+  @media(max-width: 1000px) {
+  .title-loading {
+      top: 20%;
+      left: 40%;
+    }
   }
 
   <!-- flask animation -->
@@ -48,11 +53,17 @@
 
   section img {
     position: absolute;
-    width: 20%;
+    width: 12%;
     margin-left: auto;
     margin-right: auto;
-    left: 40%;
+    left: 44%;
     bottom: 40%;
+  }
+
+  @media(max-width: 1000px) {
+   section img {
+    bottom: 80%;
+    }
   }
 
   .top {
@@ -86,10 +97,16 @@
   .seconds {
     background-color: #76c5c8;
     height: 2px;
-    width: 270px;
+    width: 250px;
     margin: auto;
     position: relative;
-    margin-top: 45%;
+    margin-top: 35%;
+  }
+
+  @media(max-width: 1000px) {
+   .seconds {
+      margin-top: 43%;
+    }
   }
 
   .bar {
