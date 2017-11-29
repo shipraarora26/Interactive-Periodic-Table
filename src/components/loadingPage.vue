@@ -4,7 +4,7 @@
       <img class="bottom" src="../assets/animation/reaction1.png">
       <img class="top" src="../assets/animation/reaction2.png">
     </section>
-    <span class="title-loading">Interactive Periodic table</span>
+    <span class="title-loading">Interactive Periodic Table</span>
     <div id="seconds" class="seconds">
       <div id="bar" class="bar animating"></div>
     </div>
@@ -35,6 +35,7 @@
     top: 60%;
     color: rgb(228,56,83);
     position: absolute;
+    font-family: avenir;
     font-size: 18px;
     font-weight: bold;
   }
@@ -85,7 +86,7 @@
   .seconds {
     background-color: #76c5c8;
     height: 2px;
-    width: 300px;
+    width: 270px;
     margin: auto;
     position: relative;
     margin-top: 45%;
